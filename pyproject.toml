@@ -1,0 +1,55 @@
+[project]
+name = "sovereign-agentic-pipeline"
+version = "0.1.0"
+description = "A fully open-source Sovereign Agentic Pipeline for New Zealand."
+readme = "README.md"
+requires-python = ">=3.12"
+license = { text = "Apache-2.0" }
+authors = [
+    { name = "James Oldham", email = "james.oldham0604@gmail.com" },
+    { name = "Karl Belleza" },
+]
+
+# Runtime deps are grouped by plan Part so a contributor installs only what their Step
+# needs. Part A is the evidence work (Steps 1-4); Part B is the pipeline (Steps 5-11)
+# and is scaffolded but not yet implemented. Install a group with, e.g.:
+#   pip install -e ".[part-a]"
+dependencies = []
+
+[project.optional-dependencies]
+# Part A — evidence (Steps 1-4): graph loading, grid ingest, energy + scheduling analysis.
+part-a = [
+    "neo4j>=5.0",          # Step 1 — Bolt driver for the knowledge graph
+    "pandas>=2.0",         # Steps 2-4 — EMI grid data, energy/scheduling tables
+    "requests>=2.31",      # Step 2 — pulling EMI datasets
+    "matplotlib>=3.8",     # notebooks — plots
+    "jupyter>=1.0",        # notebooks
+]
+
+# Part B — pipeline (Steps 5-11). Pinned loosely; tightened when each Step is built.
+part-b = [
+    "langchain>=0.2",      # Step 8 — agent logic
+    "mcp>=1.0",            # Step 7 — our own MCP server
+]
+
+# Dev tooling: linter + tests. Matches what CI runs.
+dev = [
+    "ruff>=0.6",
+    "pytest>=8.0",
+]
+
+[tool.ruff]
+target-version = "py312"
+line-length = 100
+extend-exclude = ["data/raw", "notebooks/.ipynb_checkpoints"]
+
+[tool.ruff.lint]
+# A pragmatic starter set: pyflakes (F), pycodestyle (E/W), isort (I), pyupgrade (UP),
+# flake8-bugbear (B). Loosened as the codebase grows.
+select = ["E", "W", "F", "I", "UP", "B"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+pythonpath = ["."]
+addopts = "-ra"

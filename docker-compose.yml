@@ -1,0 +1,60 @@
+# Sovereign Agentic Pipeline — local stack.
+#
+# Part A needs only Neo4j, so that is the one service that runs today. The Part B
+# services (RAGFlow, Dify, Open WebUI) are stubbed below and commented out on purpose:
+# they are uncommented step by step as Part B is built, so the compose file always
+# matches what actually works on a fresh clone. Everything here is self-hosted and open
+# source — no hosted inference, ever (see README, the binding constraint).
+
+services:
+  neo4j:
+    image: neo4j:5-community
+    container_name: sap-neo4j
+    ports:
+      - "${NEO4J_HTTP_PORT:-7474}:7474"   # Neo4j Browser (HTTP)
+      - "${NEO4J_BOLT_PORT:-7687}:7687"   # Bolt protocol (drivers)
+    environment:
+      # Auth is neo4j / NEO4J_PASSWORD from your .env.
+      NEO4J_AUTH: "neo4j/${NEO4J_PASSWORD:-sovereign_dev_pw}"
+      # Community edition, stated explicitly so the licence is unambiguous.
+      NEO4J_ACCEPT_LICENSE_AGREEMENT: "no"
+    volumes:
+      - neo4j_data:/data
+      - neo4j_logs:/logs
+    healthcheck:
+      # `make graph` waits on this before applying the schema.
+      test: ["CMD-SHELL", "cypher-shell -u neo4j -p \"$${NEO4J_PASSWORD:-sovereign_dev_pw}\" 'RETURN 1;' || exit 1"]
+      interval: 5s
+      timeout: 10s
+      retries: 20
+      start_period: 20s
+
+  # --- Part B services: stubbed, wired up as each Step lands ---
+  #
+  # Step 6 — Retrieval (RAGFlow, graph-aware, over Neo4j)
+  # ragflow:
+  #   image: infiniflow/ragflow:latest
+  #   container_name: sap-ragflow
+  #   ports:
+  #     - "${RAGFLOW_PORT:-9380}:9380"
+  #   depends_on:
+  #     neo4j:
+  #       condition: service_healthy
+  #
+  # Step 8 — Orchestration (Dify)
+  # dify:
+  #   image: langgenius/dify-api:latest
+  #   container_name: sap-dify
+  #   ports:
+  #     - "${DIFY_PORT:-3000}:3000"
+  #
+  # Step 9 — Interface (Open WebUI)
+  # open-webui:
+  #   image: ghcr.io/open-webui/open-webui:main
+  #   container_name: sap-open-webui
+  #   ports:
+  #     - "${OPEN_WEBUI_PORT:-8080}:8080"
+
+volumes:
+  neo4j_data:
+  neo4j_logs:
