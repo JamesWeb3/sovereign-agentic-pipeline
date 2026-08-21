@@ -1,0 +1,46 @@
+# --- Secrets & local env ---
+.env
+.env.*
+!.env.example
+
+# --- Research data (provenance goes in data/README.md, bytes stay out of git) ---
+data/raw/
+*.parquet
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+env/
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# --- Jupyter notebook checkpoints ---
+.ipynb_checkpoints/
+
+# --- Node (Open WebUI / Dify front-end tooling in Part B) ---
+node_modules/
+npm-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# --- Model artefacts (weights are large; keep them out of git) ---
+model/checkpoints/
+*.safetensors
+*.gguf
+*.bin
+
+# --- OS / editor ---
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
