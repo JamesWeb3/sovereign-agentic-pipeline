@@ -4,7 +4,7 @@ version = "0.1.0"
 description = "A fully open-source Sovereign Agentic Pipeline for New Zealand."
 readme = "README.md"
 requires-python = ">=3.12"
-license = { text = "Apache-2.0" }
+license = "Apache-2.0"
 authors = [
     { name = "James Oldham", email = "james.oldham0604@gmail.com" },
     { name = "Karl Belleza" },
@@ -53,3 +53,24 @@ testpaths = ["tests"]
 python_files = ["test_*.py"]
 pythonpath = ["."]
 addopts = "-ra"
+
+# The repo root has one top-level directory per plan Step (see STEP_DIRS in
+# tests/test_scaffold.py) rather than a single importable library, so setuptools'
+# flat-layout auto-discovery can't tell which directories are packages. List them
+# explicitly — this is what `pip install -e .` needs to stop erroring on "multiple
+# top-level packages discovered in a flat-layout".
+[tool.setuptools.packages.find]
+include = [
+    "research", "research.*",
+    "graph", "graph.*",
+    "grid", "grid.*",
+    "energy", "energy.*",
+    "scheduling", "scheduling.*",
+    "model", "model.*",
+    "retrieval", "retrieval.*",
+    "mcp_server", "mcp_server.*",
+    "agent", "agent.*",
+    "voice", "voice.*",
+    "roi", "roi.*",
+    "report", "report.*",
+]

@@ -116,3 +116,7 @@ The project is split into two parts, the first part is the evidence which Karl w
 The second part is the pipeline phase which actually tries out the agent stack, using Mistral open-weights model, LoRA fine tune, RAGFlow retrieval over the graph, a custom MCP tool server, LangChain agent logic, Dify orchestration, Open WebUI interface, local Whisper/Piper voice.
 
 Overall the first part of this project will be mostly gathering evidence and fuelling the research corpus, in which Karl's evidence will be supplemented with learning how to use Neo4j properly and being able to hopefully implement a system design which can later on be used into the pipeline stages.
+
+## Karl's Progress
+
+- Create a uv and venv, alongside neo4, pandas, requests, matplotlib, jupyter, ruff and pytest. The project had an installation issue due to the abundance of top-level dirs. Therefore Karl has also created a pyproject.toml file which serves a placeholder to store all relevant files needed.
