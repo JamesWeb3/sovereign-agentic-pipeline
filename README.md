@@ -105,3 +105,14 @@ them before you add a figure.
 
 [Apache-2.0](LICENSE). This repo is public from commit one; keep it that way (see
 [CONTRIBUTING.md](CONTRIBUTING.md) on what must never be committed).
+
+
+## Karl's Description of the project
+
+This is a project/research based on figuiring out if New Zealand can build AI data centres on renewable energy (research) and building an AI agent system under sovereign and energy constraints in order to work alongside renewable energy and not go against it
+
+The project is split into two parts, the first part is the evidence which Karl will be in charge of building upon the research corpus and implementing techniques from Neo4j knowledge graph linkiing sources, causes and people affected in the data center crisis.
+
+The second part is the pipeline phase which actually tries out the agent stack, using Mistral open-weights model, LoRA fine tune, RAGFlow retrieval over the graph, a custom MCP tool server, LangChain agent logic, Dify orchestration, Open WebUI interface, local Whisper/Piper voice.
+
+Overall the first part of this project will be mostly gathering evidence and fuelling the research corpus, in which Karl's evidence will be supplemented with learning how to use Neo4j properly and being able to hopefully implement a system design which can later on be used into the pipeline stages.
