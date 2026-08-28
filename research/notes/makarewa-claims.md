@@ -35,7 +35,7 @@ Camp - Neutral
 2026-07-23 - 23rd July 2026
 
 - 'I don't know if we've got the amount of available electricity that they want' - Invercargill Citizen on an Interview
-- Uses southland's colder climate for cooling rather than groundwater.
+- Claims that it would use southland's colder climate for cooling rather than groundwater.
 - Rob Scott proposes it's worth it to challenge rules and regulations due to the pace/growth of AI
 - Mercury bought a 12% stake for $53m and signed a 140MW (Mercury) long-term PPA in March
 - The data centre would open at 2028
