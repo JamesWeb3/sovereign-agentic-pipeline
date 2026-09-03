@@ -9,9 +9,9 @@ type: coverage
 camp: neutral
 ---
 
-⚠ **Verification status:** the body text below was obtained via an automated fetch of the
-page, not read directly off the live page by a human. Quotes have **not** been checked
-word-for-word. Verify against the URL before any figure here backs a graph Claim.
+✅ **Verification status:** verified by Karl on 2026-09-03. Every quote below was checked
+word-for-word against the live page, and the URL confirmed correct. Cleared to back graph
+Claims.
 
 By Katie Todd, 18 August 2026, 7:22pm.
 
@@ -61,8 +61,7 @@ Rémi Galasso, Datagrid chief executive, on Southland's climate:
 
 Galasso on declining the fast-track process:
 
-> "They proposed to me the Fast-track process and said we can give you the resource consent
-> in six months. I said, 'thank you, but no thank you. I will talk to the councils and we'll
+> "They proposed to me the Fast-track process and said we can give you the resource consent in six months. I said, 'thank you, but no thank you. I will talk to the councils and we'll
 > do the classic resource consent process.' We have to do it the right way."
 
 Galasso on consultation from here:
