@@ -9,6 +9,8 @@ type: report
 camp: growth-first
 ---
 
+**Evidence role:** primary — the consultant's report as lodged with RMA/2025/53212, not an account of it.
+
 ⚠ **Verification status:** figures below were read from the PDF's text layer via pdftotext,
 not checked page-by-page against the rendered document by a human. Table 4 in particular
 came out of a multi-column layout and its row labels should be confirmed against the PDF

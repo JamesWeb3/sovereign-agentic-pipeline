@@ -9,6 +9,8 @@ type: official-statement
 camp: official
 ---
 
+**Evidence role:** primary — Environment Southland's own notice, together with the signed permits and the commissioner's decision it publishes.
+
 ## Summary
 
 Environment Southland's public notice recording that the nine resource consents Datagrid NZ

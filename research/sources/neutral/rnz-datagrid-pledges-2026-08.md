@@ -9,6 +9,8 @@ type: coverage
 camp: neutral
 ---
 
+**Evidence role:** secondary — RNZ reporting figures that originate in the consents. Primary for the 18 August Business Chamber meeting, of which it is the only record.
+
 ✅ **Verification status:** verified by Karl on 2026-09-03. Every quote below was checked
 word-for-word against the live page, and the URL confirmed correct. Cleared to back graph
 Claims.

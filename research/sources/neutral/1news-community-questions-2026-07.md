@@ -9,6 +9,8 @@ type: coverage
 camp: neutral
 ---
 
+**Evidence role:** secondary — 1News reporting. Primary only for the interviews and community statements it captured, which exist in no other record.
+
 By Sam Olley, Reporter. Published Thu, Jul 23 2026. Note the publication date and the
 date in the URL path disagree by one day; the byline date is used here.
 

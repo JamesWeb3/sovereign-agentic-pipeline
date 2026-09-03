@@ -9,6 +9,8 @@ type: coverage
 camp: neutral
 ---
 
+**Evidence role:** secondary — Te Ao Māori News reporting; its 220m litre figure is a reporter reading the consents, which the corpus now holds directly. Primary only for the Taiuru, Two Bulls and Meager quotes.
+
 ✅ **Verification status:** verified by Karl on 2026-09-03. Every quote below was checked
 word-for-word against the live page, and the URL confirmed valid. Cleared to back graph
 Claims.

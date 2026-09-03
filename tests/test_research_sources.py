@@ -8,6 +8,7 @@ cannot be traced fails the build rather than sitting unnoticed in the corpus:
   * `type` and `camp` stay inside their controlled vocabularies
   * the camp subfolder a file lives in matches its `camp` frontmatter
   * `id` matches the filename, and every source has exactly one corpus.csv row
+  * every source declares an evidence role - primary or secondary - with a reason
 
 Frontmatter is parsed with a deliberately small hand-rolled reader rather than a YAML
 dependency: the schema is flat `key: value` lines and nothing here needs more.
@@ -27,6 +28,8 @@ MANDATORY_NON_EMPTY = ["id", "url", "retrieved", "type", "camp"]
 
 TYPES = {"coverage", "submission", "official-statement", "dataset", "report", "other"}
 CAMPS = {"climate-first", "growth-first", "neutral", "official"}
+EVIDENCE_ROLES = ("primary", "secondary")
+ROLE_PREFIX = "**Evidence role:**"
 
 # Not sources: the directory READMEs, and the format template that deliberately has no
 # corpus row (a live row would inject an "Example Publisher" node into the graph).
@@ -151,3 +154,36 @@ def test_corpus_rows_list_at_least_one_claim():
     for row in corpus_rows():
         claims = [c for c in row["claim_ids"].split(";") if c.strip()]
         assert claims, f"{row['source_id']}: no claim_ids - backs nothing"
+
+
+def evidence_role(path: Path) -> str | None:
+    """The value on the `**Evidence role:**` line in the body, or None if absent."""
+    for line in path.read_text(encoding="utf-8").splitlines():
+        if line.startswith(ROLE_PREFIX):
+            rest = line[len(ROLE_PREFIX) :].strip()
+            return rest.split()[0].strip("*_ —-") if rest else ""
+    return None
+
+
+def test_every_source_declares_an_evidence_role():
+    """Primary or secondary is recorded in the body, not the frontmatter (see README)."""
+    missing = [p.name for p in source_files() if evidence_role(p) is None]
+    assert not missing, f"source files with no '{ROLE_PREFIX}' line: {missing}"
+
+
+def test_evidence_role_is_primary_or_secondary():
+    for path in source_files():
+        role = evidence_role(path)
+        if role is None:
+            continue  # reported by test_every_source_declares_an_evidence_role
+        assert role in EVIDENCE_ROLES, f"{path.name}: bad evidence role {role!r}"
+
+
+def test_evidence_role_gives_a_reason():
+    """A bare 'primary' says nothing; the line must explain why."""
+    for path in source_files():
+        for line in path.read_text(encoding="utf-8").splitlines():
+            if line.startswith(ROLE_PREFIX):
+                reason = line[len(ROLE_PREFIX) :]
+                assert len(reason) > 20, f"{path.name}: evidence role gives no reason"
+                break

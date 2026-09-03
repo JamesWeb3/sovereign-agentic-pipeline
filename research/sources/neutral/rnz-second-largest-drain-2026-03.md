@@ -9,6 +9,8 @@ type: coverage
 camp: neutral
 ---
 
+**Evidence role:** secondary — RNZ reporting on the consents and on others' statements. Primary only for the remarks it recorded directly, including the mayor's.
+
 By Alexia Russell, 17 March 2026, 9:55am.
 
 ## Summary

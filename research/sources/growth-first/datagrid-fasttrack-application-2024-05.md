@@ -9,6 +9,8 @@ type: submission
 camp: growth-first
 ---
 
+**Evidence role:** primary — Datagrid's own application to the fast-track process, filed by the applicant.
+
 The applicant's own words, submitted to the Crown. This is the highest-value class of
 source in this corpus: everything else in the debate is describing this document.
 Submitted by Datagrid New Zealand Limited Partnership (Response ID ANON-URZ4-5FRF-8),

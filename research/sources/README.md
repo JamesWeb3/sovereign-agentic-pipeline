@@ -38,6 +38,30 @@ camp: climate-first                         # climate-first | growth-first | neu
 ---
 ```
 
+## Evidence role: primary or secondary
+
+Directly below the frontmatter, every source carries one line saying whether it is primary
+or secondary evidence, and why:
+
+```markdown
+**Evidence role:** primary — Southland District Council's own decision on RMA/2025/53212.
+```
+
+- **primary** — the document itself, speaking in its own voice: an application, a consent, a
+  decision, a commissioned report as lodged, an organisation's own release.
+- **secondary** — an account of a document or an event: news coverage, a summary, a report
+  of what someone else said.
+
+This lives in the body rather than the frontmatter deliberately: the frontmatter is the
+machine-readable contract that `corpus.csv` and `load_corpus.py` depend on, and it is not
+changing. `tests/test_research_sources.py` checks the line is present and uses one of the
+two values, so a new source cannot skip it.
+
+Coverage is almost always `secondary`, but it can be the *only* record of an event it
+witnessed — a public meeting, an interview. Say so on the same line ('Primary only for...')
+rather than promoting the whole source to primary. A figure that originated in a consent
+document should be cited to that document, never to the article that repeated it.
+
 ## Rules
 
 - **`url` and `retrieved` are mandatory.** They are what make the source checkable. No URL,

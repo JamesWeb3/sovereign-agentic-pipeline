@@ -9,6 +9,8 @@ type: official-statement
 camp: growth-first
 ---
 
+**Evidence role:** primary — the applicant's own announcement, published in its own voice on its own site.
+
 ✅ **Verification status:** verified by Karl on 2026-09-03. The quotes below were checked
 word-for-word against the live page. Cleared to back graph Claims.
 

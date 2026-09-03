@@ -9,6 +9,8 @@ type: official-statement
 camp: official
 ---
 
+**Evidence role:** primary — Southland District Council's own decision on RMA/2025/53212.
+
 ⚠ **Verification status:** quotes below were read from the PDF's text layer via pdftotext,
 not checked page-by-page against the rendered document by a human. Verify against the URL
 before any figure here backs a graph Claim.
