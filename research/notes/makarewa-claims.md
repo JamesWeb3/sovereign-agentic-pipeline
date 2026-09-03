@@ -114,20 +114,178 @@ one of the two grounds for the consent review now before Southland District Coun
 
 ## Analysis layer
 
-Working sections. Each objection or argument below should name the source it comes from and,
-where it is technical, the document that settles it. The point of the layer is to separate
-objections that survive contact with the consent documents from those that do not.
+Each entry names the source it comes from and, where technical, the document that settles it.
+The point of the layer is to separate objections that survive contact with the consent
+documents from those that do not. Written against 18 sources as at 2026-09-04; entries move
+between sections as evidence arrives, and several below are explicitly provisional.
 
-Technically Sound Objections:
+### Technically sound objections
 
+**1. The public was excluded by design, not by oversight.**
+Both consents were non-notified. `sdc-s104-decision-2026-03` disposes of the question in one
+sentence: "No matters have arisen in the assessment of this application which would indicate
+that the application ought to have been notified." `es-consent-water-2026` assessed effects as
+"no more than minor" and consulted only directly affected parties. There was no public
+submission process at any point. This is not a characterisation — it is what both decisions
+say, and it is why `sources/climate-first/` was empty until a political party spoke.
 
-Not Technically Sound Objections
+**2. Two independent experts could not find the consent documents.**
+`smc-expert-reaction-2026-03`, published two days after the grant. Dr Helen Rutter, senior
+hydrogeologist: "I haven't been able to find the Environment Southland resource consent."
+Dr Daniel Collins, hydrologist: "It is not apparent to me how much water would be abstracted
+and discharged." If qualified specialists asked for public comment could not locate the
+documents, "the process was opaque in practice" is established fact rather than grievance.
 
+**3. A policy threshold was exceeded and then set aside.**
+`es-consent-water-2026`: drawdown on bores E46/0002, E46/0960 and E46/0342 exceeds the 20%
+allowed by Policy 31 RWP and Policy 22 pSWLP. The commissioner grants it anyway, conceding
+that "written approval does not necessarily overcome a policy exceedance" before deciding the
+effect "can be disregarded". A fourth bore at about 27% drawdown is set aside because the
+owners say they do not use it. An objection that effects thresholds were waived is supported
+by the decision's own reasoning.
 
-Growth-First Arguments:
+**4. The cold-climate cooling claim is false as stated.**
+Three regulator statements say water-based cooling. `sdc-s104-decision-2026-03`: "Cooling plant
+will utilise adiabatic cooling." `es-consent-water-2026` decision: the system "is designed to
+reduce heat through evaporation of water." AUTH-20252550-03 is granted for "cooling water and
+potable supply", capped at 220,752,000 litres a year. Any claim that Southland's climate
+removes the need for groundwater is contradicted by the consents.
 
+**5. There is a second, larger water take that nobody reports.**
+AUTH-20252550-04: 321,408,000 litres in total for construction dewatering at 60 L/s over about
+two months, against 220,752,000 L/year for operations. Every news story covers the operational
+figure and none covers this one.
 
-Climate-First Arguments:
+**6. The consent authorises a nighttime noise breach.**
+`sdc-s104-decision-2026-03` lists among the consents sought "Operation of datacentre which will
+breach a nighttime noise limit". Whether the acoustic assessment behind it was adequate is what
+the s128 review will decide, but the SSRC's objection has a documentary basis: the council
+consented a breach. Provisional pending the Marshall Day assessment, which nobody has read.
+
+**7. Coolant-laden wastewater is unaccounted for.**
+Rutter flags "coolant laden" wastewater from the fast-track application, with "no information
+as to treatment or discharge". The only wastewater consent in the corpus is AUTH-20252550-01,
+up to 5 m3/day from an amenities block, likened in the decision to 2-3 large households.
+Either it is dealt with in a document nobody has read, or the adiabatic system does not
+produce it, or it is unconsented. Open.
+
+### Not technically sound objections
+
+**1. "The jobs numbers are inconsistent, so someone is lying."**
+They are three different quantities, all correct. `abley-transport-assessment-2025-08`: "Up to
+550 staff may be present on the site during the peak construction period" - concurrent
+headcount. `datagrid-resource-consent-pr-2026-03`: "Over 1,200 skilled and technical jobs" -
+total roles over the build. `insight-economics-makarewa-2025-07`: 5,751 annual jobs including
+indirect, national. A category error, not deceit.
+
+**2. "The permanent staffing figures contradict each other."**
+Same pattern. Abley: 60-100 employed, "up to 45 staff on site at any one time". Insight, via
+Alfatech: an average daily workforce of 80. RNZ's ~50 tracks the concurrent figure and 1News's
+80 the total.
+
+**3. "The applicant understated renewables at 82% to flatter its case."**
+`mbie-electricity-tables-2026` gives 82.15% for calendar 2021 - a real MBIE figure. It was one
+annual edition out of date at filing, when the current figure was 87%. Note the direction: 82%
+*understates* the renewable share. An applicant shading the numbers would have used the higher
+one. Staleness, not spin.
+
+**4. "The take will drain Southland's groundwater."**
+`es-consent-water-2026`: allocation from the zone including this take is "less than 9 % of the
+allocation limit", and under 10% even if the dewatering and operational takes fell in the same
+water year. `smc-expert-reaction-2026-03`, Collins, independent: "Southland is relatively
+water-rich, has lower water resource demand... this places Southland among the better locations
+for a data centre in Aotearoa." The objection does not survive its own best expert.
+
+**5. "It will raise household power bills."**
+Not sound *or* unsound on this evidence - the corpus contains no analysis either way. Speidel
+notes international experience of data centres "driving power and land prices up"; Brown
+frames policy around avoiding bill increases. Both are assertions. Listed here so it is not
+mistaken for an established objection.
+
+### Growth-first arguments
+
+**1. Economic scale, from the applicant's own modelling.**
+`insight-economics-makarewa-2025-07`: over a three-year build, $2.53b to national GDP, $1.48b
+in wages, 5,751 annual jobs, $380m one-off GST. Operationally $36m GDP a year, $12m wages,
+about $5.5m GST. These are input-output multiplier estimates, national and including indirect
+effects - a modelled projection, not a measurement.
+
+**2. The consented figures are worst-case caps, not expected operation.**
+`rnz-datagrid-pledges-2026-08`, Benjamin Black: "initially we have to come up with what's
+called the maximum set of effects, assuming the worst case for everything... That's how you end
+up with some pretty terrifying numbers." Datagrid now expects under 66 million litres a year
+against 220 million consented, and fewer than 34 generators against 84 permitted. The mechanism
+is real and it explains several apparent contradictions. It is also unenforceable: a consent
+ceiling binds, an expectation does not.
+
+**3. Southland is genuinely well suited, on independent evidence.**
+Collins again, who is not connected to the applicant: relatively water-rich, low competing
+demand, significant local generation at Manapouri.
+
+**4. Strategic and competitive case.**
+`smc-expert-reaction-2026-03`, Professor Albert Bifet: "If New Zealand wants to stay competitive
+in AI, we will need more infrastructure like this." Professor Nirmal Nair: New Zealand "is still
+an attractive place to build AI loads supported by our current and growing electricity
+generation". Minister James Meager, in `teaomaori-makarewa-wai-2026-07`: "the exact sort of
+infrastructure the South Island should be competing for".
+
+**5. The applicant says it chose the harder consenting route.**
+`rnz-datagrid-pledges-2026-08`, Galasso: "They proposed to me the Fast-track process... I said,
+'thank you, but no thank you.'" Weakened by `datagrid-fasttrack-application-2024-05`, which is
+Datagrid's own fast-track application. Reconcilable - apply in 2024, take the standard route in
+2026 - but unresolved, and it is the applicant contradicting his own filing.
+
+### Climate-first arguments
+
+**1. The scale of the electricity draw is real and now verified.**
+280 MW at full load is 2,453 GWh a year. Against `mbie-electricity-tables-2026`, that is 6.13%
+of 2023 national consumption and 6.04% of 2025 - so the Green Party's "about six per cent"
+holds against every year in MBIE's series. One consented site, six per cent of a country's
+electricity.
+
+**2. The renewable share is not a fixed property of Southland.**
+MBIE's series: 88.13% in 2023, 85.50% in 2024, 88.46% in 2025. It moves several points on
+hydrology alone. "Green power" without a year attached is not a claim that can be checked, and
+a large new load on a hydro-dependent grid interacts with what Collins calls "Aotearoa's
+electricity generation dry-winter problem".
+
+**3. Displacement, not direct emissions, is the climate mechanism.**
+Speidel puts it precisely: hydro use here contributes to warming "indirectly, perhaps, if the
+hydro power used by the data centre displaces power that would have headed north and then needs
+to be generated elsewhere using fossil fuels". This is the strongest version of the emissions
+argument and the corpus cannot yet settle it - it needs generation dispatch modelling, not a
+consent document.
+
+**4. The benefits may not land where the costs do.**
+Dowell: "local communities may provide the land, energy and enabling infrastructure, while much
+of the strategic control and commercial value remains concentrated elsewhere." Speidel from the
+network side: the Tasman Ring cable "tells us that the main market for the new Data Centre is
+likely to be Australia." Set against Insight's $2.53b national GDP figure, this is a real
+disagreement about what the project is for, not about what it measures.
+
+**5. The jobs asymmetry is structural.**
+Thousands during construction, up to 45 on site at any one time thereafter. Both Speidel and
+Dowell make the same point independently: "the long-term workforce is typically small once
+construction is complete". Not an objection to the figures, an objection to which figure the
+public debate has been conducted in.
+
+**6. There is no national framework, and there was none when this was consented.**
+`1news-brown-underwrite-generation-2026-08`: the Energy Minister is "getting some policy advice
+around what that looks like". No cabinet paper, discussion document or consultation exists.
+`es-consent-water-2026` states the regulator's own limits: "Environment Southland is not a
+construction or energy regulator and does not have any regional rules relating to the use of
+generated electricity." Nobody assessed the electricity question because no one had the job.
+This is the Greens' actual argument and it is the hardest to answer.
+
+### What would change these classifications
+
+- The **Marshall Day noise assessment** would move objection 6 from provisional to settled
+  either way, and is the evidentiary heart of the s128 review.
+- The **SSRC request as lodged** would let the objectors' case be assessed on its own terms
+  rather than through the council's summary of it.
+- **Generation dispatch modelling** is the only thing that can resolve climate-first argument 3.
+  Nothing in the current corpus can.
+- A **household price analysis** would decide whether the price objection belongs in either list.
 
 
 
