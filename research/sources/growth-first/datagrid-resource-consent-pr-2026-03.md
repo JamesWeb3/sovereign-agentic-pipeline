@@ -13,7 +13,7 @@ camp: growth-first
 word-for-word against the live page. Cleared to back graph Claims.
 
 The three unquoted figures that used to sit in this file (280MW, the Tasman Ring Network
-cable, and the three-council consent grant) were moved to `../notes/makarewa-claims.md`
+cable, and the three-council consent grant) were moved to `../../notes/makarewa-claims.md`
 because they are paraphrase. They still need the release's own sentence captured before
 they can back a Claim - this verification does not cover them.
 

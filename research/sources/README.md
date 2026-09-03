@@ -4,6 +4,25 @@ Each primary source is a single Markdown file with YAML frontmatter, then your n
 relevant quotes below the frontmatter. The frontmatter is the machine-readable part that
 `graph/loaders/load_corpus.py` and `corpus.csv` depend on, so the field names matter.
 
+## Layout
+
+Sources are filed in a subfolder named for their `camp`, so the shape of the evidence base
+is visible from the directory listing alone:
+
+```
+sources/
+  climate-first/   (empty - see its README, this gap is a finding)
+  growth-first/    the applicant's own filings and announcements
+  neutral/         news coverage carrying voices from more than one side
+  official/        regulators and decision-makers speaking in their own documents
+```
+
+The folder must match the `camp` field in the file's frontmatter. `camp` stays the
+authoritative value - `corpus.csv` and the graph loader read that, never the path - so if
+you reclassify a source, change the frontmatter and move the file in the same commit.
+
+`README.md` and `example-0001-template.md` stay at the top level: neither is a source.
+
 ## Frontmatter schema
 
 ```yaml
