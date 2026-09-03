@@ -61,8 +61,8 @@ Conflicting values — figures where two sources give different numbers for the 
 
 | Claim | Value A | Value B | Notes |
 | --- | --- | --- | --- |
-| Construction jobs | "up to 550" (RNZ, Mar) | 1,200 (1News, Jul) | **Basis established, values still unattributed.** `insight-economics-makarewa-2025-07` — the applicant's own modelling, a year before either story — gives 5,751 annual jobs / 5,387 FTEs over 3 years, of which 3,050 direct and 2,701 indirect, and states these capture "all onsite and offsite activities". So they are national input-output estimates, not site headcount. Neither 550 nor 1,200 appears anywhere in it. Both news figures must be on-site headcount from some other document — try the Abley transport assessment, which models construction traffic. |
-| Permanent staff | ~50 (RNZ) | 80 (1News) | **Resolved in favour of 80.** `insight-economics-makarewa-2025-07` Table 6: 80.0 jobs / 71.8 FTEs for data centre operation, plus 0.5 FTE substation maintenance = 80.5 jobs / 72.3 FTEs. The 80 traces to Alfatech's "average daily workforce of 80 staff". RNZ's ~50 has no support in the applicant's own modelling and predates nothing — the report is July 2025, both stories are 2026. |
+| Construction jobs | "up to 550" (RNZ, Mar) | 1,200 (1News, Jul) | **Closed. Three different quantities, all correct.** `abley-transport-assessment-2025-08`: "Up to 550 staff may be present on the site during the peak construction period" - concurrent on-site headcount, sized for 400 car parks. Datagrid's release claims "Over 1,200 skilled and technical jobs" - total roles over the build. `insight-economics-makarewa-2025-07`: 5,751 annual jobs / 5,387 FTEs - national, direct plus indirect, onsite and offsite. Nobody contradicted anybody; three sources answered three questions. |
+| Permanent staff | ~50 (RNZ) | 80 (1News) | **Closed, and my earlier "resolved in favour of 80" was wrong.** `abley-transport-assessment-2025-08` gives three figures: the park "will employ between 60 - 100 staff", with "Up to 45 staff on site at any one time" (5 admin, 10 security, 5 ops management, up to 26 ops). RNZ's ~50 tracks the 45 concurrent; 1News's 80 tracks Alfatech's "average daily workforce of 80" via `insight-economics-makarewa-2025-07`. Both are right about different quantities - concurrent on site vs total employed. |
 | Site footprint | 49 ha = 43 owned + ~6 in OIO (application) | "48-ha property" (RNZ) | **Both may undercount.** `sdc-s104-decision-2026-03` consents six titles across *three* addresses — 342 and 370 Flora Road East plus 63 Taylor Road, Lorneville. Every other source describes a two-address site. Component areas given: 9.5ha datahalls, ~4ha GXP substation, 18.66ha planting. Establish whether the 48/49ha figures cover the Taylor Road title at all. |
 | Renewable share | 82% (application) | 85.7% (MBIE, Jan–Mar 2024) | **Different basis, not contradictory.** Applicant's figure vs. MBIE's actual quarterly generation mix. Label the basis and period rather than picking a winner. |
 
@@ -311,3 +311,47 @@ Claim.
 **Timing correction.** SDC decided 5 March 2026; ES granted 11 March 2026. Datagrid's release
 (`datagrid-resource-consent-pr-2026-03`, 11 March) presents consent from three councils as a
 single event. It was not.
+
+
+**`abley-transport-assessment-2025-08`**
+
+### It is the origin of every workforce number, and it dissolves both jobs rows
+
+Because a transport assessment has to size car parks and model peak-hour flows, it states
+on-site headcount directly - the one thing neither the economic assessment nor any council
+document does. "Up to 550 staff may be present on the site during the peak construction
+period" is where RNZ's 550 comes from. It is concurrent headcount, not total roles.
+
+Set the three construction figures side by side and the contradiction disappears: 550
+concurrent on site (Abley), "over 1,200 skilled and technical jobs" over the build
+(Datagrid's release), 5,751 annual jobs nationally including indirect (Insight Economics).
+Three questions, three answers.
+
+**Correction to my earlier note.** I recorded the permanent-staff row as resolved in favour
+of 80 and RNZ's ~50 as unsupported. Abley shows otherwise: "Up to 45 staff on site at any one
+time", against 60-100 employed in total. RNZ's ~50 is the concurrent figure; 1News's 80 is
+the total. Neither was wrong.
+
+**`sdc-review-request-2026-08`**
+
+### The live challenge, and who is making it
+
+The objector has a name and a legal route: the **Southland Sustainable Resources Coalition**
+lodged a s128 review request on 27 July 2026, relying on Condition GEN4. The grounds are
+entirely acoustic - methodology, low-frequency noise and infrasound, noise source
+identification, baseline monitoring, the unspecified ground factor for sound propagation, and
+whether the existing conditions suffice.
+
+**This does not fill the climate-first folder.** The report is SDC's, summarising SSRC's case
+rather than reproducing it. The SSRC request as lodged is the document that would, and it is
+not on the council's page. Worth asking for.
+
+**The council had its own dates wrong.** The report body says the consent was granted 11 March
+2026 with the review period expiring 11 September; a post-meeting note corrects both to 5
+March and 5 September, explaining that the 11 March dates belong to the Environment Southland
+consents. That confirms the 5 March 2026 decision date read off the s104 signature block, and
+it means the decision on whether to review is due **5 September 2026**.
+
+**A noise row belongs in the contradiction table** once someone reads Marshall Day: the s104
+consents a datacentre that "will breach a nighttime noise limit", and SSRC's case is that the
+assessment underpinning that was inadequate.
