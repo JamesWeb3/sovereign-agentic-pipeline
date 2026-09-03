@@ -83,8 +83,8 @@ Conflicting values — figures where two sources give different numbers for the 
 | Construction jobs | "up to 550" (RNZ, Mar) | 1,200 (1News, Jul) | **Closed. Three different quantities, all correct.** `abley-transport-assessment-2025-08`: "Up to 550 staff may be present on the site during the peak construction period" - concurrent on-site headcount, sized for 400 car parks. Datagrid's release claims "Over 1,200 skilled and technical jobs" - total roles over the build. `insight-economics-makarewa-2025-07`: 5,751 annual jobs / 5,387 FTEs - national, direct plus indirect, onsite and offsite. Nobody contradicted anybody; three sources answered three questions. |
 | Permanent staff | ~50 (RNZ) | 80 (1News) | **Closed, and my earlier "resolved in favour of 80" was wrong.** `abley-transport-assessment-2025-08` gives three figures: the park "will employ between 60 - 100 staff", with "Up to 45 staff on site at any one time" (5 admin, 10 security, 5 ops management, up to 26 ops). RNZ's ~50 tracks the 45 concurrent; 1News's 80 tracks Alfatech's "average daily workforce of 80" via `insight-economics-makarewa-2025-07`. Both are right about different quantities - concurrent on site vs total employed. |
 | Site footprint | 49 ha = 43 owned + ~6 in OIO (application) | "48-ha property" (RNZ) | **Both may undercount.** `sdc-s104-decision-2026-03` consents six titles across *three* addresses — 342 and 370 Flora Road East plus 63 Taylor Road, Lorneville. Every other source describes a two-address site. Component areas given: 9.5ha datahalls, ~4ha GXP substation, 18.66ha planting. Establish whether the 48/49ha figures cover the Taylor Road title at all. |
-| National electricity share | Datagrid alone "about six per cent of our country's total electricity supply" (Greens, 26 Jul 2026) | ALL data centres 0.6% now, ~3% by 2030 (Energy Minister Simeon Brown, 9 Aug 2026) | **Open, and they cannot both hold.** If one consented site is 6% of national supply, the whole sector cannot still be 3% in 2030. Candidate explanations: the Greens are quoting nameplate capacity against average consumption; Brown is quoting present operating load excluding consented-but-unbuilt sites; or one is simply wrong. Resolve with MBIE generation data - there is still no `type: dataset` source in this corpus. |
-| Renewable share | 82% (application) | 85.7% (MBIE, Jan–Mar 2024) | **Open — no published figure matches 82%.** The Jan–Mar 2024 quarter postdates the 2 May 2024 filing, so the applicant cannot have used it. The most recent quarter available at filing was Dec 2023, reported as 90.3% (unverified). 82% is below both. Most likely an *annual* figure from 2021–23 rather than a quarterly one. Needs MBIE's annual series — see the reading note above. |
+| National electricity share | Datagrid alone "about six per cent of our country's total electricity supply" (Greens, 26 Jul 2026) | ALL data centres 0.6% now, ~3% by 2030 (Energy Minister Simeon Brown, 9 Aug 2026) | **The Greens' arithmetic checks out; the conflict is real and is about *when*.** Against `mbie-energy-in-nz-2024` (43,488 GWh generated, 39,130 GWh consumed in 2023), 280 MW running flat out is 2,453 GWh = 5.6% of generation, 6.3% of consumption. So "about six per cent" is sound for a fully built, fully loaded Makarewa. Brown's 0.6% is data centres *operating now*, when Makarewa is not built. His 3% by 2030 is the number that cannot stand beside the Greens' 6%, unless it excludes Makarewa or assumes it is far from full load. That is the question to put to MBIE or the minister's office. |
+| Renewable share | 82% (application) | 85.7% (MBIE, Jan–Mar 2024) | **Closed. 82% is MBIE's calendar-2021 annual figure, one edition stale at filing.** `mbie-energy-in-nz-2022`: "Electricity generated from renewable sources this year was 82.1 per cent of total generation". At filing on 2 May 2024 the latest annual was Energy in New Zealand 2023 (August 2023), covering 2022 at 87%; the 2024 edition (88.0% for 2023) was not published until September 2024. So the applicant quoted a real MBIE figure that was one edition out of date. Note it *understates* the renewable share — a conservative error, not a flattering one. |
 
 Disputed characterisations — competing accounts of the same events, not competing measurements.
 
@@ -101,11 +101,12 @@ What each row still needs:
   "43 owned" half. Not yet read.
 - **National electricity share** — open, and the sharpest row in the table. Needs MBIE
   generation data.
-- **Renewable share** — needs MBIE's *annual* series, not the quarterly one.
+- **Renewable share** — closed by `mbie-energy-in-nz-2022`.
 - **Consultation** — needs an attendance record.
 
-Two of the open rows need the same thing: **MBIE generation statistics**. The corpus still
-has no `type: dataset` source at all, and adding one would close both.
+MBIE's annual series is now in the corpus (`mbie-energy-in-nz-2022`,
+`mbie-energy-in-nz-2024`), which closed the renewable-share row and supplies the national
+denominator for the electricity-share row.
 
 A new row belongs here once someone reads the Marshall Day noise assessment: the s104
 consents a datacentre that "will breach a nighttime noise limit", and low-frequency noise is
@@ -471,4 +472,52 @@ cannot both be true as stated, and both are on the record within a fortnight of 
 This is a better test of the graph than the water figures, because unlike 220m vs 66m there is
 no "different quantity" reading that obviously rescues both. Resolving it needs MBIE generation
 statistics, which the corpus still lacks entirely.
+
+
+### `mbie-energy-in-nz-2022` and `mbie-energy-in-nz-2024`
+
+#### The 82% is real, and it is three years old
+
+MBIE's annual publication for calendar 2021 records the renewable share of electricity
+generation as 82.1 per cent. That is the only published New Zealand figure matching the
+fast-track application's "82%", and it settles a question this file has carried open since the
+first reading note.
+
+The timing matters. The application was filed 2 May 2024. Energy in New Zealand 2023, published
+August 2023 and covering calendar 2022, put the share at 87 per cent — that was the current
+edition at filing. The 88.0 per cent figure for 2023 was not published until September 2024,
+four months after filing.
+
+So the applicant used a genuine MBIE figure one edition out of date. Worth being fair about the
+direction of the error: 82.1% *understates* New Zealand's renewable share against both the
+then-current 87% and the later 88%. An applicant shading the numbers in its own favour would
+have used the higher figure. This looks like staleness, not spin, and the source file should
+say so.
+
+#### The national denominator, and what it does to the 6% claim
+
+Energy in New Zealand 2024 gives 2023 totals: **43,488 GWh generated**, **39,130 GWh consumed**,
+88.0 per cent renewable, with industrial consumption at 12,903 GWh.
+
+Run the Greens' claim against it. 280 MW × 8,760 hours = 2,453 GWh a year at full utilisation —
+5.6% of generation, 6.3% of consumption. At 240 MW of IT load the figures are 4.8% and 5.4%.
+"About six per cent of our country's total electricity supply" is therefore arithmetically
+sound for a completed Makarewa running hard, measured against consumption.
+
+That sharpens rather than dissolves the conflict with the Energy Minister. Brown's 0.6% is
+plainly today's operating fleet, which does not include an unbuilt Makarewa. His **3% by 2030**
+is the figure that cannot sit beside the Greens' 6% for one site, unless it excludes Makarewa
+or assumes a low load factor. Both numbers are also projections rather than measurements, and
+the graph should record them as such.
+
+#### A caveat on these two sources
+
+Both are `type: report`, not `type: dataset`. Energy in New Zealand is a statistical publication,
+and the honest label for a PDF of commentary and charts is a report. MBIE does publish the
+underlying data tables as spreadsheets, and those would be the genuine `dataset` source — worth
+adding when someone needs a full time series rather than the handful of figures quoted here.
+
+Also note MBIE sits behind Imperva bot protection: the HTML pages and `/dmsdocument/` links
+refuse automated fetches, while direct `/assets/*.pdf` links work. Anyone re-checking these
+should expect the landing pages to fail and go to the PDFs.
 

@@ -33,12 +33,16 @@ generation matching their total projected usage:
 
 Reported figures — wording not captured verbatim, treat as reported rather than quoted:
 
-- Data centres currently account for **0.6%** of New Zealand's power consumption
+- Data centres currently make up about **0.6%** of New Zealand's power consumption
 - Projected to reach approximately **3% by 2030**
 
 Brown is reported as working with Economic Growth Minister Nicola Willis, on the principle
 that data centres should finance new renewable generation without pushing up household power
 bills. No cabinet paper, discussion document, consultation or timeline is named.
+
+On Data Sovereignty:
+
+"If we want to have data sovereignty, if we want to have access to AI data centres, which is going to be critical to our productivity, we're going to need these in our country."
 
 ## Claims this supports
 

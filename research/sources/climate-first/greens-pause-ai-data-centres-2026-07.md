@@ -11,9 +11,9 @@ camp: climate-first
 
 **Evidence role:** primary — the party's own statement, published in its own voice on its own site.
 
-⚠ **Verification status:** text below was obtained via an automated fetch of the page, not
-read directly off the live page by a human. Quotes have **not** been checked word-for-word.
-Verify against the URL before any figure here backs a graph Claim.
+✅ **Verification status:** verified by Karl on 2026-09-03. Every quote below was checked
+word-for-word against the live page, and the URL confirmed valid. Cleared to back graph
+Claims.
 
 Published 26 July 2026. Quotes Chlöe Swarbrick, Green Party Co-leader. There is a companion
 campaign page at https://action.greens.org.nz/pause_ai_data_centres.
