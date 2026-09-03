@@ -89,3 +89,177 @@ Growth-First Arguments:
 
 Climate-First Arguments:
 
+
+
+*Figures from the Datagrid consent press release not yet captured verbatim*
+Source: `datagrid-resource-consent-pr-2026-03` - https://www.datagrid.nz/pr1-rc/resourceconsent
+
+Moved out of the source file: these are paraphrase, and paraphrase belongs here. Each needs
+the release's own sentence captured before it can back a Claim.
+
+- Power draw of 280MW, described as making Datagrid the country's second-largest electricity
+  user after the Tiwai Point aluminium smelter. Most urgent of the three: it contradicts
+  "over 240MW of IT load" in the 2024 fast-track application, and nobody has recorded how the
+  release actually words it.
+- Approval for the Tasman Ring Network landing at Oreti Beach, described as the first
+  international subsea cable to the South Island. The 2024 application calls the cable
+  Te Waipounamu - renamed, or a different component, unresolved.
+- Consent granted 11 March 2026 by three councils - Southland District Council, Environment
+  Southland, and Invercargill City Council - covering the Makarewa campus and the subsea
+  cable landing at Oreti Beach.
+
+
+*Source Analysis*
+
+Moved out of `research/sources/` on 2026-09-03: source files hold frontmatter, a summary,
+verbatim quotes and claim IDs only. All analysis, flags and follow-ups live here, keyed by
+source id.
+
+
+**`1news-community-questions-2026-07`**
+
+### The contested claim worth modelling
+
+`claim-makarewa-consultation-adequate` is directly disputed between sources. In
+`rnz-second-largest-drain-2026-03` the same mayor says the community was consulted and
+listened to. Here, a residents' group is holding its own meetings because it feels it
+was not, and the applicant did not attend. Same Claim, two Sources, opposite positions.
+A spreadsheet loses this. The graph is what makes it queryable.
+
+
+**`datagrid-fasttrack-application-2024-05`**
+
+### Two things worth flagging
+
+**The capex is withheld.** Both cost figures in the application are redacted as
+`s 9(2)(b)(ii)` (commercially sensitive, Official Information Act). So every dollar figure
+in the media coverage comes from somewhere other than this document, and should be traced
+to whoever actually said it. Do not attribute a cost to the application.
+
+**"240MW of IT load" is not the same quantity as the 280MW reported in coverage.** IT load
+is the compute draw, excluding cooling and overheads; a facility's grid draw is higher.
+Before either number goes in the graph as `claim-makarewa-power-draw`, establish which
+quantity each source is measuring. This is exactly the kind of thing the graph is for.
+
+
+**`datagrid-resource-consent-pr-2026-03`**
+
+### Four things worth flagging
+
+**280MW is Datagrid's own figure, not a media invention.** The 2024 fast-track application
+says "over 240MW of IT load"; this says 280MW. Both are the applicant's own numbers, two
+years apart. They are probably different quantities (IT load excludes cooling and overheads)
+*and* different vintages. Establish which is which before either enters
+`claim-makarewa-power-draw`.
+
+**The 1,200 jobs figure predates RNZ's 550.** This release is 11 March 2026;
+`rnz-second-largest-drain-2026-03` reports "up to 550 workers" on 17 March 2026. The larger
+number came *first*, so the discrepancy is not a scale-up over time. The surviving
+explanation is a difference in basis — total jobs created over the build versus peak
+concurrent headcount on site.
+
+**The CEO named here is Remi Galasso.** The 2024 application
+(`datagrid-fasttrack-application-2024-05`) names Perrine Dhalluin as CEO. Either leadership
+changed between 2024 and 2026, or the two hold different roles. Do not merge them into one
+`:Person` node until this is resolved.
+
+**The cable has a different name.** "Tasman Ring Network" here; "Te Waipounamu" in the 2024
+application. Same cable renamed, or a different component — unresolved.
+
+
+**`es-consent-water-2026`**
+
+### Documents not yet read
+
+- `Redacted - s95-95G Recommending Report APP-20252550.pdf` (26.5 MB) — the notification decision
+- `Datagrid NZ Partnership Ltd - PDP Groundwater Take_Rev3.pdf` (33 MB) — the applicant's take assessment
+- `Datagrid_Makarewa_Review of Groundwater Assessment.pdf` (282 KB) — ES review of the above
+- `Data NZ Limited Partnership - Cultural impact Assessment.pdf` (1.6 MB)
+
+The reported figure that Datagrid **expects to use ~66 million litres a year, 70% less than
+consented**, does not appear anywhere in the decision or in the permits. It is an operator
+statement made at a public meeting five months after these consents were granted, and it is
+not traceable to this source. It has its own file: `rnz-datagrid-pledges-2026-08`.
+
+
+**`rnz-datagrid-pledges-2026-08`**
+
+### Five things worth flagging
+
+**The 66m figure is weaker evidence than the 220m it is set against.** 220,752,000 L/year is a
+binding condition in a signed permit (`es-consent-water-2026`, AUTH-20252550-03). 66 million is
+RNZ paraphrasing a spoken remark at a chamber meeting. Both belong on
+`claim-makarewa-water-take` — James is explicit that neither should be deleted — but the graph
+should record *what kind* of quantity each is. A consent ceiling and an operator's forecast are
+different promises: one is enforceable, the other is not.
+
+**66 million is almost exactly 30% of the consent limit.** 220,752,000 x 0.30 = 66,225,600.
+The figure appears to be derived from the consent ceiling rather than measured or modelled
+independently, which is consistent with "70% less than consented" being the actual claim and
+"66 million" being its arithmetic restatement.
+
+**Black's worst-case framing may resolve several contradiction-table rows at once.** If
+consented conditions are "the maximum set of effects, assuming the worst case", then the same
+mechanism may explain the 84 vs 34 generators, and possibly the jobs and footprint conflicts.
+Worth testing against those rows rather than treating each as a separate discrepancy.
+
+**Galasso says he refused fast-track, but the corpus holds his fast-track application.**
+`datagrid-fasttrack-application-2024-05` is a fast-track approval application filed by Datagrid
+in May 2024. Probably reconcilable — applied for fast-track listing in 2024, then took the
+standard RMA route for the consents actually granted in 2026 — but as stated the two conflict,
+and it is the applicant contradicting his own filing. Do not let either stand unqualified.
+
+**Capex has moved again: $5b here, $3.5b in `1news-community-questions-2026-07` (July 2026).**
+One month apart. Same pattern as the power draw (240MW / 280MW) and the jobs figures.
+
+### Not verified — do not use
+
+Search-engine summaries attributed a stronger claim to Datagrid — that it would use **no**
+groundwater, relying entirely on free air cooling with rainwater harvesting for "occasional
+evaporative adiabatic assist". That wording does **not** appear in this RNZ article, which says
+only that the company "had pledged to rely primarily on rainwater". If that stronger claim is
+wanted, find where it actually came from first. Note it would also sit against the commissioner's
+decision, which says the cooling system "is designed to reduce heat through evaporation of water".
+
+
+**`rnz-second-largest-drain-2026-03`**
+
+### Note on the jobs figures
+
+This source says "up to 550 workers" on site during construction and "about 50 staff" to
+run it. `1news-community-questions-2026-07` reports 1200 and 80 for what appear to be the
+same two quantities, four months later. Both are in the graph; neither is deleted. Load
+them as two Numbers evidencing the same Claim and let the contradiction be visible, then
+find out which is right and why it changed.
+
+
+**`teaomaori-makarewa-wai-2026-07`**
+
+### Three things worth flagging
+
+**The consent was non-notified, and that reframes the consultation dispute.** The argument
+between the mayor and the residents' coalition in `rnz-second-largest-drain-2026-03` and
+`1news-community-questions-2026-07` is not about whether consultation was thorough — it is
+that there was no statutory public submission process at all. The mayor's "they've consulted
+the community" describes voluntary engagement. `claim-makarewa-consultation-adequate` should
+be modelled with this underneath it.
+
+**Consultation splits into two different questions.** Iwi *were* notified; the public was
+not. Those are separate facts with separate answers, and collapsing them loses the finding.
+
+**Groundwater is used, not avoided.** Any note that the site relies on Southland's cold
+climate *instead of* groundwater is wrong: it draws 220m litres a year and recirculates it.
+Cold-climate cooling and groundwater use are not alternatives here.
+
+### Still missing behind this
+
+This is coverage, not the consent. The 220m litre figure traces to a reporter reading the
+consents, not to the consents themselves — `businessdesk.co.nz` reported the same figure and
+is paywalled. The authoritative source is Environment Southland's water take consent, which
+was not published because the application was non-notified. LGOIMA request pending.
+
+### Leads this opens
+
+The three rūnanga named above, Minister James Meager, and Dr Karaitiana Taiuru all have
+their own material, which would be primary rather than reported. The rūnanga in particular
+are a dimension this corpus currently lacks entirely.

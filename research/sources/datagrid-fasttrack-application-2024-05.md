@@ -46,18 +46,6 @@ dedicated Transpower substation.
 > is in the OIO process of acquiring additional adjoining land of approximately 6ha"
 > — Section 2, component 4
 
-## Two things worth flagging
-
-**The capex is withheld.** Both cost figures in the application are redacted as
-`s 9(2)(b)(ii)` (commercially sensitive, Official Information Act). So every dollar figure
-in the media coverage comes from somewhere other than this document, and should be traced
-to whoever actually said it. Do not attribute a cost to the application.
-
-**"240MW of IT load" is not the same quantity as the 280MW reported in coverage.** IT load
-is the compute draw, excluding cooling and overheads; a facility's grid draw is higher.
-Before either number goes in the graph as `claim-makarewa-power-draw`, establish which
-quantity each source is measuring. This is exactly the kind of thing the graph is for.
-
 ## Claims this supports
 
 `claim-makarewa-power-draw`, `claim-makarewa-site-footprint`, `claim-nz-renewable-share`,

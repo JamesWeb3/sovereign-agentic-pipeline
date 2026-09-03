@@ -23,15 +23,7 @@ Datagrid announces that full resource consent was granted on 11 March 2026 by th
 councils — Southland District Council, Environment Southland, and Invercargill City Council
 — covering the Makarewa data centre campus and the subsea cable landing at Oreti Beach.
 
-## Relevant quotes and figures
-
-> Power draw of **280MW**, described as making Datagrid the country's second-largest
-> electricity user after the Tiwai Point aluminium smelter.
-
-> **"Over 1,200 skilled and technical jobs"** during the construction phase.
-
-> Approval for the **Tasman Ring Network** landing at Oreti Beach, described as the first
-> international subsea cable to the South Island.
+## Verbatim quotes
 
 Remi Galasso, Founder and CEO:
 
@@ -40,27 +32,13 @@ Remi Galasso, Founder and CEO:
 > approval is the result of years of dedication and collaboration, and we are excited about
 > the transformative impact this project will have on Southland and New Zealand as a whole."
 
-## Four things worth flagging
+On construction jobs — the quoted phrase only:
 
-**280MW is Datagrid's own figure, not a media invention.** The 2024 fast-track application
-says "over 240MW of IT load"; this says 280MW. Both are the applicant's own numbers, two
-years apart. They are probably different quantities (IT load excludes cooling and overheads)
-*and* different vintages. Establish which is which before either enters
-`claim-makarewa-power-draw`.
+> "Over 1,200 skilled and technical jobs"
 
-**The 1,200 jobs figure predates RNZ's 550.** This release is 11 March 2026;
-`rnz-second-largest-drain-2026-03` reports "up to 550 workers" on 17 March 2026. The larger
-number came *first*, so the discrepancy is not a scale-up over time. The surviving
-explanation is a difference in basis — total jobs created over the build versus peak
-concurrent headcount on site.
-
-**The CEO named here is Remi Galasso.** The 2024 application
-(`datagrid-fasttrack-application-2024-05`) names Perrine Dhalluin as CEO. Either leadership
-changed between 2024 and 2026, or the two hold different roles. Do not merge them into one
-`:Person` node until this is resolved.
-
-**The cable has a different name.** "Tasman Ring Network" here; "Te Waipounamu" in the 2024
-application. Same cable renamed, or a different component — unresolved.
+The sentence around it was not captured; only this phrase is verbatim. The file previously
+presented it as applying "during the construction phase", but that framing is a paraphrase,
+so check what the release actually says around the phrase.
 
 ## Claims this supports
 

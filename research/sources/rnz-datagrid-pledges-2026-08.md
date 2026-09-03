@@ -93,43 +93,6 @@ On the consent review now underway:
 Other figures stated in passing: capex **$5 billion**; completion **2028**; site works (access
 road, topsoil excavation) began 18 August 2026.
 
-## Five things worth flagging
-
-**The 66m figure is weaker evidence than the 220m it is set against.** 220,752,000 L/year is a
-binding condition in a signed permit (`es-consent-water-2026`, AUTH-20252550-03). 66 million is
-RNZ paraphrasing a spoken remark at a chamber meeting. Both belong on
-`claim-makarewa-water-take` — James is explicit that neither should be deleted — but the graph
-should record *what kind* of quantity each is. A consent ceiling and an operator's forecast are
-different promises: one is enforceable, the other is not.
-
-**66 million is almost exactly 30% of the consent limit.** 220,752,000 x 0.30 = 66,225,600.
-The figure appears to be derived from the consent ceiling rather than measured or modelled
-independently, which is consistent with "70% less than consented" being the actual claim and
-"66 million" being its arithmetic restatement.
-
-**Black's worst-case framing may resolve several contradiction-table rows at once.** If
-consented conditions are "the maximum set of effects, assuming the worst case", then the same
-mechanism may explain the 84 vs 34 generators, and possibly the jobs and footprint conflicts.
-Worth testing against those rows rather than treating each as a separate discrepancy.
-
-**Galasso says he refused fast-track, but the corpus holds his fast-track application.**
-`datagrid-fasttrack-application-2024-05` is a fast-track approval application filed by Datagrid
-in May 2024. Probably reconcilable — applied for fast-track listing in 2024, then took the
-standard RMA route for the consents actually granted in 2026 — but as stated the two conflict,
-and it is the applicant contradicting his own filing. Do not let either stand unqualified.
-
-**Capex has moved again: $5b here, $3.5b in `1news-community-questions-2026-07` (July 2026).**
-One month apart. Same pattern as the power draw (240MW / 280MW) and the jobs figures.
-
-## Not verified — do not use
-
-Search-engine summaries attributed a stronger claim to Datagrid — that it would use **no**
-groundwater, relying entirely on free air cooling with rainwater harvesting for "occasional
-evaporative adiabatic assist". That wording does **not** appear in this RNZ article, which says
-only that the company "had pledged to rely primarily on rainwater". If that stronger claim is
-wanted, find where it actually came from first. Note it would also sit against the commissioner's
-decision, which says the cooling system "is designed to reduce heat through evaporation of water".
-
 ## Claims this supports
 
 - `claim-makarewa-water-take` — under 66,000,000 L/year expected, against 220,752,000 consented

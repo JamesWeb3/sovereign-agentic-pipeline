@@ -53,35 +53,6 @@ James Meager (Ngāi Tahu), South Island Minister:
 > "This is the exact sort of infrastructure the South Island should be competing for:
 > private investment that uses our natural advantages."
 
-## Three things worth flagging
-
-**The consent was non-notified, and that reframes the consultation dispute.** The argument
-between the mayor and the residents' coalition in `rnz-second-largest-drain-2026-03` and
-`1news-community-questions-2026-07` is not about whether consultation was thorough — it is
-that there was no statutory public submission process at all. The mayor's "they've consulted
-the community" describes voluntary engagement. `claim-makarewa-consultation-adequate` should
-be modelled with this underneath it.
-
-**Consultation splits into two different questions.** Iwi *were* notified; the public was
-not. Those are separate facts with separate answers, and collapsing them loses the finding.
-
-**Groundwater is used, not avoided.** Any note that the site relies on Southland's cold
-climate *instead of* groundwater is wrong: it draws 220m litres a year and recirculates it.
-Cold-climate cooling and groundwater use are not alternatives here.
-
-## Still missing behind this
-
-This is coverage, not the consent. The 220m litre figure traces to a reporter reading the
-consents, not to the consents themselves — `businessdesk.co.nz` reported the same figure and
-is paywalled. The authoritative source is Environment Southland's water take consent, which
-was not published because the application was non-notified. LGOIMA request pending.
-
-## Leads this opens
-
-The three rūnanga named above, Minister James Meager, and Dr Karaitiana Taiuru all have
-their own material, which would be primary rather than reported. The rūnanga in particular
-are a dimension this corpus currently lacks entirely.
-
 ## Claims this supports
 
 `claim-makarewa-water-take`, `claim-makarewa-non-notified`,

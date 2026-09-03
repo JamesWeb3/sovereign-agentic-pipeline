@@ -177,18 +177,6 @@ The consents granted, verbatim from the decision:
 That is **nine** consents, numbered 01-09, all from Environment Southland. The Southland
 District Council land use consent is a tenth authorisation, but from a different authority.
 
-## Documents not yet read
-
-- `Redacted - s95-95G Recommending Report APP-20252550.pdf` (26.5 MB) — the notification decision
-- `Datagrid NZ Partnership Ltd - PDP Groundwater Take_Rev3.pdf` (33 MB) — the applicant's take assessment
-- `Datagrid_Makarewa_Review of Groundwater Assessment.pdf` (282 KB) — ES review of the above
-- `Data NZ Limited Partnership - Cultural impact Assessment.pdf` (1.6 MB)
-
-The reported figure that Datagrid **expects to use ~66 million litres a year, 70% less than
-consented**, does not appear anywhere in the decision or in the permits. It is an operator
-statement made at a public meeting five months after these consents were granted, and it is
-not traceable to this source. It has its own file: `rnz-datagrid-pledges-2026-08`.
-
 ## Claims this supports
 
 - `claim-makarewa-water-take` — 220,752,000 L/year, 604,800 L/day, 7 L/s consented (AUTH-03)
