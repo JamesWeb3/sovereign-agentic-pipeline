@@ -355,3 +355,55 @@ it means the decision on whether to review is due **5 September 2026**.
 **A noise row belongs in the contradiction table** once someone reads Marshall Day: the s104
 consents a datacentre that "will breach a nighttime noise limit", and SSRC's case is that the
 assessment underpinning that was inadequate.
+
+
+**`smc-expert-reaction-2026-03`**
+
+### The experts could not find the documents
+
+The most consequential thing in this source is not an opinion but an admission of fact, twice
+over, from people qualified to read the consents. Dr Helen Rutter, a senior hydrogeologist:
+"I haven't been able to find the Environment Southland resource consent which might contain
+some of the above details." Dr Daniel Collins, hydrologist: "It is not apparent to me how much
+water would be abstracted and discharged."
+
+Both were commenting on 13 March 2026, two days after the consents were granted. The permits
+carrying those numbers - 7 L/s, 604,800 L/day, 220,752,000 L/year - were published by
+Environment Southland on 13 March, the same day. Two subject-matter experts asked for public
+comment could not locate what a search now returns in minutes.
+
+That is the sharpest available evidence of what non-notification meant in practice, and it is
+worth more than any campaigner's characterisation of the same thing. It also justifies the
+premise of this repository better than anything else in the corpus.
+
+### A discharge nobody has accounted for
+
+Rutter flags "coolant laden" wastewater from the fast-track application, with "no information
+as to treatment or discharge". The corpus holds AUTH-20252550-01, which consents up to 5 m3/day
+of *treated wastewater from an amenities block* - sinks, showers and toilets, described in the
+decision as equivalent to 2-3 large households. Nothing in the nine Environment Southland
+consents obviously covers coolant-laden process water.
+
+Either it is dealt with somewhere unread - the PDP air discharge or environmental management
+plan documents - or the adiabatic system does not produce it, or it is genuinely unconsented.
+Worth resolving: it is a discharge question raised by a hydrogeologist and not visibly answered
+in any decision document.
+
+### Two independent voices on the jobs question
+
+Speidel: "There's a few jobs during construction but generally very few thereafter because most
+of the operation is automated and remote controlled from places with a larger pool of IT staff."
+Dowell: "the long-term workforce is typically small once construction is complete". Neither
+gives a number, so neither contradicts Abley's 60-100 employed or Insight's 80 - but both frame
+the operational figure as the one that matters, against a public debate conducted almost
+entirely in construction numbers.
+
+### Where the value lands - the repository's own question
+
+Dowell puts the sovereignty argument in its sharpest form: "local communities may provide the
+land, energy and enabling infrastructure, while much of the strategic control and commercial
+value remains concentrated elsewhere." Speidel reaches the same place from the network side:
+the Tasman Ring cable "tells us that the main market for the new Data Centre is likely to be
+Australia." Set against Insight Economics' $2.53b national GDP contribution, that is a genuine
+disagreement about what the project is for, not about what it measures.
+
