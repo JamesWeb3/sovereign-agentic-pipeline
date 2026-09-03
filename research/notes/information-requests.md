@@ -8,7 +8,7 @@ sent and the outcome; a refusal is a finding, not a dead end.
 
 | # | Sent | To | Asking for | Status |
 |---|---|---|---|---|
-| 1 | not yet sent | Southland Sustainable Resources Coalition | the s128 review request as lodged, plus their acoustic evidence | draft below |
+| 1 | **2026-09-03** | Kelly Blomfield, Southland Sustainable Resource Coalition (Facebook message) | the s128 review request as lodged, plus their acoustic evidence and any published positions | **sent** - no statutory deadline; follow up ~2026-09-10 |
 | 2 | **2026-09-03** | Southland District Council (LGOIMA) | the SSRC request as received, Attachment A, any acoustic review, the public-excluded material | **sent** - statutory reply due ~2026-10-01 (20 working days) |
 
 ## Why these two
@@ -66,7 +66,29 @@ Resources Coalition"; the Facebook group and most coverage use "Southland Sustai
 Resource Coalition", singular. Use the council's spelling when citing the s128 request and
 the group's own when citing the group.
 
-## Draft 1 — to the SSRC
+## Request 1 — sent 2026-09-03
+
+Sent as a Facebook message to Kelly Blomfield, coalition chair, rather than as email: the
+coalition publishes no email address, and the Facebook group is the only direct channel found.
+Sent to her directly rather than posted in the group, to keep a document request from turning
+into a public debate.
+
+The message named the documents already held (the nine Environment Southland consents and the
+commissioner's decision, SDC's s104 decision, and the 5 August council report on the s128
+request), asked for the review request as lodged plus the acoustic evidence behind it and any
+published positions on water and electricity, and offered our email address for the reply
+rather than asking for hers.
+
+**Follow-up:** if there is no reply by about 2026-09-10, a short public post in the group
+asking the same thing is a reasonable next step. Note the decision on whether to open the
+review is due 5 September, so the request may cross with that.
+
+**If she asks whether the project is for or against the data centre**, the honest answer is
+neither, and the corpus demonstrates it: Datagrid's own filings sit alongside the Green Party's
+moratorium call, and the contradiction table records where the applicant's numbers hold up
+(the 220m litre consent figure) as well as where they do not.
+
+## Long-form draft 1 — email version, if a postal or email address turns up
 
 > Subject: Request for a copy of your s128 review request — Datagrid, RMA/2025/53212
 >

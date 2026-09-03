@@ -26,8 +26,9 @@ evidence-role line marks as secondary.
 
 - **The SSRC s128 review request as lodged**, 27 July 2026. The objectors' first formal
   filing on the record. Summarised but not reproduced in `../official/sdc-review-request-2026-08`.
-  See `../../notes/information-requests.md` — a LGOIMA request went to Southland District
-  Council on 2026-09-03, and the coalition has no published email address.
+  **Both routes are now open:** a LGOIMA request to Southland District Council and a Facebook
+  message to coalition chair Kelly Blomfield, both sent 2026-09-03. See
+  `../../notes/information-requests.md` for what was asked and when to follow up.
 - **The petition to Parliament**, written by Ruby Love, with a te reo Māori version and an
   English version by another student, citing combustion emissions. A change.org version is at
   <https://www.change.org/p/stop-hyperscale-data-centres-in-new-zealand> with 18,000+
