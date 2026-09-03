@@ -42,6 +42,19 @@ Camp - Neutral
 - Material would be a climate-first source if cited direct material from Kelly Blomfield, Southland Sustainable Resource Coalition.
 - From RNZ: 12m-high noise barriers over 9.5ha on a 48-ha property, and the mayor's actual consultation quotes.
 
+*Environment Southland Consent Documents*
+- Consent was granted WITHOUT public notification
+- Was not publicly notified as it was argued that it was assessed as having no more than 'minor environmental effects'
+- Management act was consulted and provided wrtitten
+- Following is the list of what was approved
+- Discharge treated wastewater from land
+- Discharge contaminants to air from diesel generators
+- Take groundwater to dewater a construction area
+- Occupy a coastal marine area with a datacable
+- Discharge water from dewatering of a site
+- Earthworks in proximity of a wetland
+
+
 *Contradiction Table*
 
 Conflicting values — figures where two sources give different numbers for the same fact.
