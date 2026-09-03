@@ -9,9 +9,13 @@ type: official-statement
 camp: growth-first
 ---
 
-⚠ **Verification status:** quotes and figures below were obtained via an automated fetch of
-the page, not read directly off the live page by a human. They have **not** been checked
-word-for-word. Verify against the URL before any figure here backs a graph Claim.
+✅ **Verification status:** verified by Karl on 2026-09-03. The quotes below were checked
+word-for-word against the live page. Cleared to back graph Claims.
+
+The three unquoted figures that used to sit in this file (280MW, the Tasman Ring Network
+cable, and the three-council consent grant) were moved to `../notes/makarewa-claims.md`
+because they are paraphrase. They still need the release's own sentence captured before
+they can back a Claim - this verification does not cover them.
 
 The applicant's own announcement of the approval, published the day it was granted. Second
 only to the fast-track application itself as a growth-first primary source: this is Datagrid
