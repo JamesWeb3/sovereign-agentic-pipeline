@@ -9,9 +9,9 @@ type: coverage
 camp: neutral
 ---
 
-⚠ **Verification status:** quotes and figures below were obtained via an automated fetch of
-the page, not read directly off the live page by a human. They have **not** been checked
-word-for-word. Verify against the URL before any figure here backs a graph Claim.
+✅ **Verification status:** verified by Karl on 2026-09-03. Every quote below was checked
+word-for-word against the live page, and the URL confirmed valid. Cleared to back graph
+Claims.
 
 By Daniel Perese, 20 July 2026.
 
