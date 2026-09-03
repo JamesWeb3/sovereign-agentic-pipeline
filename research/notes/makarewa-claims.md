@@ -64,6 +64,7 @@ Conflicting values — figures where two sources give different numbers for the 
 | Construction jobs | "up to 550" (RNZ, Mar) | 1,200 (1News, Jul) | **Closed. Three different quantities, all correct.** `abley-transport-assessment-2025-08`: "Up to 550 staff may be present on the site during the peak construction period" - concurrent on-site headcount, sized for 400 car parks. Datagrid's release claims "Over 1,200 skilled and technical jobs" - total roles over the build. `insight-economics-makarewa-2025-07`: 5,751 annual jobs / 5,387 FTEs - national, direct plus indirect, onsite and offsite. Nobody contradicted anybody; three sources answered three questions. |
 | Permanent staff | ~50 (RNZ) | 80 (1News) | **Closed, and my earlier "resolved in favour of 80" was wrong.** `abley-transport-assessment-2025-08` gives three figures: the park "will employ between 60 - 100 staff", with "Up to 45 staff on site at any one time" (5 admin, 10 security, 5 ops management, up to 26 ops). RNZ's ~50 tracks the 45 concurrent; 1News's 80 tracks Alfatech's "average daily workforce of 80" via `insight-economics-makarewa-2025-07`. Both are right about different quantities - concurrent on site vs total employed. |
 | Site footprint | 49 ha = 43 owned + ~6 in OIO (application) | "48-ha property" (RNZ) | **Both may undercount.** `sdc-s104-decision-2026-03` consents six titles across *three* addresses — 342 and 370 Flora Road East plus 63 Taylor Road, Lorneville. Every other source describes a two-address site. Component areas given: 9.5ha datahalls, ~4ha GXP substation, 18.66ha planting. Establish whether the 48/49ha figures cover the Taylor Road title at all. |
+| National electricity share | Datagrid alone "about six per cent of our country's total electricity supply" (Greens, 26 Jul 2026) | ALL data centres 0.6% now, ~3% by 2030 (Energy Minister Simeon Brown, 9 Aug 2026) | **Open, and they cannot both hold.** If one consented site is 6% of national supply, the whole sector cannot still be 3% in 2030. Candidate explanations: the Greens are quoting nameplate capacity against average consumption; Brown is quoting present operating load excluding consented-but-unbuilt sites; or one is simply wrong. Resolve with MBIE generation data - there is still no `type: dataset` source in this corpus. |
 | Renewable share | 82% (application) | 85.7% (MBIE, Jan–Mar 2024) | **Different basis, not contradictory.** Applicant's figure vs. MBIE's actual quarterly generation mix. Label the basis and period rather than picking a winner. |
 
 Disputed characterisations — competing accounts of the same events, not competing measurements.
@@ -406,4 +407,31 @@ value remains concentrated elsewhere." Speidel reaches the same place from the n
 the Tasman Ring cable "tells us that the main market for the new Data Centre is likely to be
 Australia." Set against Insight Economics' $2.53b national GDP contribution, that is a genuine
 disagreement about what the project is for, not about what it measures.
+
+
+**`1news-brown-underwrite-generation-2026-08`**
+
+### There is no government data centre policy to cite
+
+Chased on 2026-09-03 and it does not exist as a document. What exists: the Prime Minister on
+27 July 2026 directing Nicola Willis and DPMC to develop principles ("I want to be able to get
+all the interests that are in that space to come back with some sensible, common-sense rules"),
+and Simeon Brown on 9 August saying "we're getting some policy advice around what that looks
+like". No cabinet paper, no discussion document, no consultation, nothing on beehive.govt.nz,
+DPMC or MBIE that a search surfaces.
+
+That is itself the finding. Datagrid is consented, built and under construction; the Greens
+want a moratorium; SSRC is seeking a s128 review - and the national framework all of them are
+arguing about has not been written. The two concepts the government has named are
+"additionality" (large centres must bring new generation rather than draw on the existing grid)
+and a "compact" setting the terms of entry. Both are aspirations, not rules.
+
+### The 6% question
+
+The Greens say Makarewa alone will use "about six per cent of our country's total electricity
+supply". Brown says data centres in total are 0.6% now and head for about 3% by 2030. Those
+cannot both be true as stated, and both are on the record within a fortnight of each other.
+This is a better test of the graph than the water figures, because unlike 220m vs 66m there is
+no "different quantity" reading that obviously rescues both. Resolving it needs MBIE generation
+statistics, which the corpus still lacks entirely.
 
