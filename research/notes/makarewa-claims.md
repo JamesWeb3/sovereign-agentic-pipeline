@@ -83,7 +83,7 @@ Conflicting values — figures where two sources give different numbers for the 
 | Construction jobs | "up to 550" (RNZ, Mar) | 1,200 (1News, Jul) | **Closed. Three different quantities, all correct.** `abley-transport-assessment-2025-08`: "Up to 550 staff may be present on the site during the peak construction period" - concurrent on-site headcount, sized for 400 car parks. Datagrid's release claims "Over 1,200 skilled and technical jobs" - total roles over the build. `insight-economics-makarewa-2025-07`: 5,751 annual jobs / 5,387 FTEs - national, direct plus indirect, onsite and offsite. Nobody contradicted anybody; three sources answered three questions. |
 | Permanent staff | ~50 (RNZ) | 80 (1News) | **Closed, and my earlier "resolved in favour of 80" was wrong.** `abley-transport-assessment-2025-08` gives three figures: the park "will employ between 60 - 100 staff", with "Up to 45 staff on site at any one time" (5 admin, 10 security, 5 ops management, up to 26 ops). RNZ's ~50 tracks the 45 concurrent; 1News's 80 tracks Alfatech's "average daily workforce of 80" via `insight-economics-makarewa-2025-07`. Both are right about different quantities - concurrent on site vs total employed. |
 | Site footprint | 49 ha = 43 owned + ~6 in OIO (application) | "48-ha property" (RNZ) | **Both may undercount.** `sdc-s104-decision-2026-03` consents six titles across *three* addresses — 342 and 370 Flora Road East plus 63 Taylor Road, Lorneville. Every other source describes a two-address site. Component areas given: 9.5ha datahalls, ~4ha GXP substation, 18.66ha planting. Establish whether the 48/49ha figures cover the Taylor Road title at all. |
-| National electricity share | Datagrid alone "about six per cent of our country's total electricity supply" (Greens, 26 Jul 2026) | ALL data centres 0.6% now, ~3% by 2030 (Energy Minister Simeon Brown, 9 Aug 2026) | **The Greens' arithmetic checks out; the conflict is real and is about *when*.** Against `mbie-energy-in-nz-2024` (43,488 GWh generated, 39,130 GWh consumed in 2023), 280 MW running flat out is 2,453 GWh = 5.6% of generation, 6.3% of consumption. So "about six per cent" is sound for a fully built, fully loaded Makarewa. Brown's 0.6% is data centres *operating now*, when Makarewa is not built. His 3% by 2030 is the number that cannot stand beside the Greens' 6%, unless it excludes Makarewa or assumes it is far from full load. That is the question to put to MBIE or the minister's office. |
+| National electricity share | Datagrid alone "about six per cent of our country's total electricity supply" (Greens, 26 Jul 2026) | ALL data centres 0.6% now, ~3% by 2030 (Energy Minister Simeon Brown, 9 Aug 2026) | **The Greens' arithmetic checks out; the conflict is real and is about *when*.** Against `mbie-energy-in-nz-2025` (40,002 GWh consumed in 2024, the most recent annual), 280 MW running flat out is 2,453 GWh = **6.1% of national consumption**. So "about six per cent" is sound for a fully built, fully loaded Makarewa. Brown's 0.6% is data centres *operating now*, when Makarewa is not built. His 3% by 2030 is the number that cannot stand beside the Greens' 6%, unless it excludes Makarewa or assumes it is far from full load. That is the question to put to MBIE or the minister's office. |
 | Renewable share | 82% (application) | 85.7% (MBIE, Jan–Mar 2024) | **Closed. 82% is MBIE's calendar-2021 annual figure, one edition stale at filing.** `mbie-energy-in-nz-2022`: "Electricity generated from renewable sources this year was 82.1 per cent of total generation". At filing on 2 May 2024 the latest annual was Energy in New Zealand 2023 (August 2023), covering 2022 at 87%; the 2024 edition (88.0% for 2023) was not published until September 2024. So the applicant quoted a real MBIE figure that was one edition out of date. Note it *understates* the renewable share — a conservative error, not a flattering one. |
 
 Disputed characterisations — competing accounts of the same events, not competing measurements.
@@ -520,4 +520,41 @@ adding when someone needs a full time series rather than the handful of figures 
 Also note MBIE sits behind Imperva bot protection: the HTML pages and `/dmsdocument/` links
 refuse automated fetches, while direct `/assets/*.pdf` links work. Anyone re-checking these
 should expect the landing pages to fail and go to the PDFs.
+
+#### The 2025 edition, and a tighter check on the 6%
+
+`mbie-energy-in-nz-2025` (published August 2025, covering calendar 2024) is the current annual
+and the denominator to use. National consumption was **40,002 GWh** in 2024.
+
+280 MW x 8,760 hours = 2,453 GWh, which is **6.13 per cent** of that. The Greens' "about six
+per cent of our country's total electricity supply" is not a rhetorical flourish; it is what
+the arithmetic gives for a completed Makarewa running at full load, against the most recent
+published national figure. Record it as a projection all the same - the site does not open
+until 2028.
+
+The same edition weakens a different argument. The renewable share **fell to 85.5 per cent in
+2024, down 2.6 points from 88.1 per cent in 2023**, on low hydro. Southland's renewable
+electricity is the applicant's central environmental claim, and MBIE's own series shows the
+national share moving several points on hydrology alone. Any "green power" claim needs a year
+attached to it.
+
+One inconsistency worth noting: `mbie-energy-in-nz-2024` gives the 2023 renewable share as
+88.0 per cent in its summary and 88.1 per cent in the body; `mbie-energy-in-nz-2025` reports it
+as 88.1. A tenth of a point, but the graph should carry one value with its source, not both.
+
+#### The spreadsheet tables could not be retrieved
+
+MBIE publishes quarterly XLSX data tables on its electricity statistics and renewables
+statistics pages, which would be a genuine `type: dataset` source rather than these `report`
+PDFs. They could not be fetched: MBIE's HTML sits behind Imperva bot protection and refuses
+automated requests, including with a cookie jar and a browser user agent. Only direct
+`/assets/*.pdf` links pass, and guessing XLSX asset paths returned 404s.
+
+Retrieving them needs a human with a browser. The pages are:
+
+- Electricity statistics: https://www.mbie.govt.nz/building-and-energy/energy-and-natural-resources/energy-statistics-and-modelling/energy-statistics/electricity-statistics
+- Renewables statistics: https://www.mbie.govt.nz/building-and-energy/energy-and-natural-resources/energy-statistics-and-modelling/energy-statistics/renewables-statistics
+
+MBIE also lists `energyinfo@mbie.govt.nz` for data queries, which is the route to a full time
+series if the published tables do not go back far enough.
 

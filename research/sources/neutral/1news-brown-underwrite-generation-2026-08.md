@@ -40,7 +40,7 @@ Brown is reported as working with Economic Growth Minister Nicola Willis, on the
 that data centres should finance new renewable generation without pushing up household power
 bills. No cabinet paper, discussion document, consultation or timeline is named.
 
-On Data Sovereignty:
+Simeon Brown on the necessity of Data Sovereignty in terms of country productivity:
 
 "If we want to have data sovereignty, if we want to have access to AI data centres, which is going to be critical to our productivity, we're going to need these in our country."
 
