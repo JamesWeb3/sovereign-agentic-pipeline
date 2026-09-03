@@ -61,9 +61,9 @@ Conflicting values — figures where two sources give different numbers for the 
 
 | Claim | Value A | Value B | Notes |
 | --- | --- | --- | --- |
-| Construction jobs | "up to 550" (RNZ, Mar) | 1,200 (1News, Jul) | **Unresolved.** Four months apart — could be a real scale-up, or peak headcount vs. cumulative/person-years. Check the basis of 1,200. |
-| Permanent staff | ~50 (RNZ) | 80 (1News) | **Unresolved.** Same two sources and dates as the row above; if the project scaled up between Mar and Jul, both figures move together. Test as one hypothesis, not two. |
-| Site footprint | 49 ha = 43 owned + ~6 in OIO (application) | "48-ha property" (RNZ) | **Likely not a conflict.** ~1 ha apart; plausibly rounding, or whether the OIO parcel is counted. Low priority. |
+| Construction jobs | "up to 550" (RNZ, Mar) | 1,200 (1News, Jul) | **Basis established, values still unattributed.** `insight-economics-makarewa-2025-07` — the applicant's own modelling, a year before either story — gives 5,751 annual jobs / 5,387 FTEs over 3 years, of which 3,050 direct and 2,701 indirect, and states these capture "all onsite and offsite activities". So they are national input-output estimates, not site headcount. Neither 550 nor 1,200 appears anywhere in it. Both news figures must be on-site headcount from some other document — try the Abley transport assessment, which models construction traffic. |
+| Permanent staff | ~50 (RNZ) | 80 (1News) | **Resolved in favour of 80.** `insight-economics-makarewa-2025-07` Table 6: 80.0 jobs / 71.8 FTEs for data centre operation, plus 0.5 FTE substation maintenance = 80.5 jobs / 72.3 FTEs. The 80 traces to Alfatech's "average daily workforce of 80 staff". RNZ's ~50 has no support in the applicant's own modelling and predates nothing — the report is July 2025, both stories are 2026. |
+| Site footprint | 49 ha = 43 owned + ~6 in OIO (application) | "48-ha property" (RNZ) | **Both may undercount.** `sdc-s104-decision-2026-03` consents six titles across *three* addresses — 342 and 370 Flora Road East plus 63 Taylor Road, Lorneville. Every other source describes a two-address site. Component areas given: 9.5ha datahalls, ~4ha GXP substation, 18.66ha planting. Establish whether the 48/49ha figures cover the Taylor Road title at all. |
 | Renewable share | 82% (application) | 85.7% (MBIE, Jan–Mar 2024) | **Different basis, not contradictory.** Applicant's figure vs. MBIE's actual quarterly generation mix. Label the basis and period rather than picking a winner. |
 
 Disputed characterisations — competing accounts of the same events, not competing measurements.
@@ -72,9 +72,15 @@ Disputed characterisations — competing accounts of the same events, not compet
 | --- | --- | --- | --- |
 | Was consultation adequate? | Mayor: "done it right" | Coalition: meeting alone, applicant absent | Resolvable on the record — who attended, and when. |
 
-What each row needs to close: rows 1–2 need a source that resolves the figure; row 3 needs a
-footnote on what is being counted; row 4 needs the basis and period stated; the consultation
-row needs an attendance record. Only rows 1–2 are genuinely open questions.
+What each row needs to close: row 1 needs the document 550 and 1,200 actually come from
+(likely the Abley transport assessment); row 2 is closed; row 3 needs the Taylor Road title
+reconciled against the 48/49ha figures, and the LINZ OIO decision records 42.8167ha acquired
+at 370 Flora Road East, which should settle the "43 owned" half; row 4 needs the basis and
+period stated; the consultation row needs an attendance record.
+
+A new row belongs here once someone reads the Marshall Day noise assessment: the s104
+consents a datacentre that "will breach a nighttime noise limit", and low-frequency noise is
+one of the two grounds for the consent review now before Southland District Council.
 
 *Analyis Layer*
 
@@ -263,3 +269,45 @@ was not published because the application was non-notified. LGOIMA request pendi
 The three rūnanga named above, Minister James Meager, and Dr Karaitiana Taiuru all have
 their own material, which would be primary rather than reported. The rūnanga in particular
 are a dimension this corpus currently lacks entirely.
+
+
+**`insight-economics-makarewa-2025-07`**
+
+### What this settles, and what it does not
+
+**It is the origin of the jobs numbers, and it disowns both reported ones.** Its construction
+figures are multiplier estimates of national employment - 5,751 annual jobs, 3,050 of them
+direct - and section 6.2 is explicit that even "direct" spans onsite and offsite work. Nothing
+in it is a count of people at Makarewa. 550 and 1,200 are therefore not rival estimates of
+this quantity; they answer a different question, from a document nobody has found yet.
+
+**The permanent-staff row is closed.** 80 jobs / 72.3 FTEs at full build-out, sourced from
+Alfatech. Written July 2025, so it predates RNZ's ~50 by eight months and 1News's 80 by a
+year. 1News was right.
+
+**It is the applicant's consultant, and should be read as such.** Prepared for Datagrid,
+by Insight Economics, and lodged in support of the consent application. `camp: growth-first`.
+The disclaimer accepts no liability for actions arising from its contents.
+
+**`sdc-s104-decision-2026-03`**
+
+### Three findings
+
+**The site is larger than any other source says.** Six titles, three addresses - 342 and 370
+Flora Road East *and* 63 Taylor Road, Lorneville. The entire corpus, including Datagrid's own
+release, describes a two-address site of 48-49ha.
+
+**The cooling is adiabatic, which is the third regulator statement against the cold-climate
+framing.** SDC: "Cooling plant will utilise adiabatic cooling to provide efficiencies in water
+supply and power usage". ES decision: "designed to reduce heat through evaporation of water".
+ES permit AUTH-20252550-03: granted for "cooling water and potable supply".
+
+**But potable water is rainwater by condition, not groundwater.** Condition OP7 requires
+onsite rainwater collection with 150m3 of tank storage for potable supply. That sits against
+the ES groundwater permit, whose stated purpose includes potable supply. Two regulators, two
+different accounts of where drinking water comes from - worth resolving before either backs a
+Claim.
+
+**Timing correction.** SDC decided 5 March 2026; ES granted 11 March 2026. Datagrid's release
+(`datagrid-resource-consent-pr-2026-03`, 11 March) presents consent from three councils as a
+single event. It was not.
