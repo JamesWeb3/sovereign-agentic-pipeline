@@ -186,7 +186,8 @@ District Council land use consent is a tenth authorisation, but from a different
 
 The reported figure that Datagrid **expects to use ~66 million litres a year, 70% less than
 consented**, does not appear anywhere in the decision or in the permits. It is an operator
-statement and needs its own source file — it is not traceable to this one.
+statement made at a public meeting five months after these consents were granted, and it is
+not traceable to this source. It has its own file: `rnz-datagrid-pledges-2026-08`.
 
 ## Claims this supports
 
