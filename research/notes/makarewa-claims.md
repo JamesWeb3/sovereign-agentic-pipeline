@@ -542,7 +542,33 @@ One inconsistency worth noting: `mbie-energy-in-nz-2024` gives the 2023 renewabl
 88.0 per cent in its summary and 88.1 per cent in the body; `mbie-energy-in-nz-2025` reports it
 as 88.1. A tenth of a point, but the graph should carry one value with its source, not both.
 
-#### The spreadsheet tables could not be retrieved
+#### The spreadsheet tables — retrieved 2026-09-04
+
+Karl downloaded them by hand; they are in `data/raw/` (gitignored) and registered in
+`data/README.md`. `mbie-electricity-tables-2026` is now the corpus's first `type: dataset`
+source, and it is the authoritative version of figures that until now came from PDFs
+describing them.
+
+Three things came out of it:
+
+**The application's 82% is 2021, at 82.15 per cent** — confirmed to two decimals from the
+series itself rather than inferred from a publication's prose.
+
+**The 88.0 / 88.1 discrepancy resolves to 88.1.** The table gives 88.13 for 2023, so the 2024
+publication's body was right and its summary rounded down.
+
+**A figure this corpus already cites has since been revised.** `mbie-energy-in-nz-2024` gives
+2023 national consumption as 39,130 GWh; the current table gives 40,004 GWh (estimated sales)
+or 40,067.6 GWh (actual sales). Generation for 2023 also moved, 43,488 to 43,592 GWh. The
+workbook's Revisions sheet attributes it to methodology improvements for residential and
+transport consumption. Worth carrying into the graph design: a Number needs a vintage as well
+as a value, because the same official figure for the same year changes between publications.
+
+The Makarewa share holds against the corrected denominators — 280 MW at full load is 2,453
+GWh, which is 6.14% of 2022 consumption, 6.13% of 2023, 6.12% of 2024 and 6.04% of 2025. The
+Greens' "about six per cent" survives every year in the series.
+
+#### The original blocked-retrieval note, kept for the record
 
 MBIE publishes quarterly XLSX data tables on its electricity statistics and renewables
 statistics pages, which would be a genuine `type: dataset` source rather than these `report`
@@ -555,6 +581,7 @@ Retrieving them needs a human with a browser. The pages are:
 - Electricity statistics: https://www.mbie.govt.nz/building-and-energy/energy-and-natural-resources/energy-statistics-and-modelling/energy-statistics/electricity-statistics
 - Renewables statistics: https://www.mbie.govt.nz/building-and-energy/energy-and-natural-resources/energy-statistics-and-modelling/energy-statistics/renewables-statistics
 
-MBIE also lists `energyinfo@mbie.govt.nz` for data queries, which is the route to a full time
-series if the published tables do not go back far enough.
+MBIE also lists `energyinfo@mbie.govt.nz` for data queries. That is now also the address for
+**licence terms**: neither workbook states any, and `data/README.md` requires redistribution
+rights to be confirmed before any derived table is committed to a public repo.
 

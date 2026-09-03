@@ -11,10 +11,9 @@ camp: neutral
 
 **Evidence role:** secondary — 1News reporting an interview on TVNZ's Q+A. Primary only for Energy Minister Simeon Brown's remarks as broadcast; there is no published policy document behind them.
 
-⚠ **Verification status:** obtained via an automated fetch, which returned a summary rather
-than full text. Only one direct quote below is verbatim; the figures are reported but their
-exact wording is **not** captured. Read the article and, better, the Q+A transcript before any
-figure here backs a graph Claim.
+✅ **Verification status:** verified by Karl on 2026-09-03. Every quote below was checked
+word-for-word against the live page, and the URL confirmed valid. Cleared to back graph
+Claims.
 
 ## Summary
 
