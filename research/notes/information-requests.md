@@ -9,7 +9,7 @@ sent and the outcome; a refusal is a finding, not a dead end.
 | # | Sent | To | Asking for | Status |
 |---|---|---|---|---|
 | 1 | not yet sent | Southland Sustainable Resources Coalition | the s128 review request as lodged, plus their acoustic evidence | draft below |
-| 2 | not yet sent | Southland District Council (LGOIMA) | the SSRC request as received, Attachment A, any acoustic review, the public-excluded material | draft below |
+| 2 | **2026-09-03** | Southland District Council (LGOIMA) | the SSRC request as received, Attachment A, any acoustic review, the public-excluded material | **sent** - statutory reply due ~2026-10-01 (20 working days) |
 
 ## Why these two
 
@@ -33,12 +33,38 @@ Page: https://www.southlanddc.govt.nz/council/local-government-official-informat
 SDC's page notes there may be a charge under the government charging guidelines, and that
 costs are discussed before work begins. A targeted request should not attract one.
 
-**SSRC** — no website or email address found in public search as at 2026-09-03. What is known:
-Kelly Blomfield is the coalition's chair/organiser and is quoted in
-`neutral/1news-community-questions-2026-07`. The coalition has run public information
-evenings at the Invercargill Workingmen's Club. **Contact details need to be found before
-request 1 can be sent** — try the coalition's social media, the meeting organisers, or ask
-the journalists who have quoted them.
+**SSRC** — no website, email address or postal address is published. Searched 2026-09-03.
+The one direct channel found is a Facebook group:
+
+- **https://www.facebook.com/groups/4353202661614067/** — "Southland Sustainable Resource
+  Coalition". Message the admins, or post in the group. This is the most likely route.
+
+Named people, all via media coverage rather than the coalition itself:
+
+- **Kelly Blomfield** — chair / president / organiser. Quoted in
+  `neutral/1news-community-questions-2026-07` and in RNZ's 27 July 2026 piece: "We're not
+  anti-technology, we're not anti-progress, and we're not even anti-data centres. We're just
+  anti-no transparency."
+- **Nigel McCord** — engineer, spoke at the 22 July 2026 public meeting. Probably the same
+  engineer in RNZ/Farmers Weekly's "Massive Southland data centre's water consent concerns
+  engineer" (https://www.rnz.co.nz/news/business/750158/). A named technical critic with his
+  own material is worth pursuing in his own right.
+- **Karen Maw** — environmentalist, spoke at the same meeting.
+
+Fallback routes if the Facebook group does not answer:
+
+- Ask a journalist who has covered them to pass the request on — Katie Todd at RNZ covered the
+  18 August chamber meeting. Reporters will not hand over contact details but will often
+  forward a message.
+- The Invercargill Workingmen's Club has hosted their public meetings and holds a booking
+  contact.
+- SDC holds the coalition's contact details as the s128 requester, though personal details
+  will likely be withheld from the LGOIMA response under privacy grounds.
+
+**Name check:** Southland District Council's report calls it the "Southland Sustainable
+Resources Coalition"; the Facebook group and most coverage use "Southland Sustainable
+Resource Coalition", singular. Use the council's spelling when citing the s128 request and
+the group's own when citing the group.
 
 ## Draft 1 — to the SSRC
 
