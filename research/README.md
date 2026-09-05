@@ -21,7 +21,14 @@ per source in `sources/`, registered in `corpus.csv`.
 - `numbers.csv` — the number register: one row per figure, tied to the claim it evidences
   and the source it came from. `source_id` is mandatory, and `basis` says what the figure
   actually measures.
+- `entities.csv` — the things a claim can be about: facilities, organisations, policies.
+  A claim's `about_id` must exist here, or the graph holds a node with an id and no name.
 - `notes/` — working notes, synthesis, reading summaries. Not sources; thinking.
+
+A source's `camp` and `type` are deliberately **not** in `corpus.csv`. They live in the
+source file's own frontmatter, which `tests/test_research_sources.py` already checks
+against the folder it sits in, and the loader reads them from there. A second copy in the
+register would be a value that can disagree with itself.
 
 All three registers are read by `graph/loaders/load_corpus.py`, which refuses to write
 anything if a reference does not resolve.

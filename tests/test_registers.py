@@ -56,7 +56,7 @@ def _header(name: str) -> list[str]:
 
 
 def test_registers_exist():
-    for name in ("corpus.csv", "claims.csv", "numbers.csv"):
+    for name in ("corpus.csv", "claims.csv", "numbers.csv", "entities.csv"):
         assert (RESEARCH / name).exists(), f"research/{name} is missing"
 
 
@@ -163,3 +163,38 @@ def test_check_references_rejects_an_unknown_claim():
     ]
     with pytest.raises(ValueError, match="not in claims.csv"):
         load_corpus.check_references(corpus, claims, bad)
+
+
+EXPECTED_ENTITIES_HEADER = ["entity_id", "label", "name", "kind", "region"]
+
+
+def test_entities_header_and_labels():
+    assert _header("entities.csv") == EXPECTED_ENTITIES_HEADER
+    for row in _rows("entities.csv"):
+        assert row["label"] in load_corpus.ABOUT_LABELS, (
+            f"{row['entity_id']} has unknown label {row['label']!r}"
+        )
+        assert row["name"].strip(), f"{row['entity_id']} has no name"
+
+
+def test_every_claim_points_at_a_registered_entity():
+    """A Claim ABOUT an unregistered id would make claims_about_facility return nulls."""
+    load_corpus.check_references(
+        _rows("corpus.csv"),
+        _rows("claims.csv"),
+        _rows("numbers.csv"),
+        _rows("entities.csv"),
+    )
+
+
+def test_every_corpus_source_has_frontmatter_camp():
+    """`camp` reaches the graph from the source file, not from a second copy in the CSV.
+
+    Source nodes carry camp so `sources_by_camp` and `claims_about_facility` can group by
+    it; both returned nulls before the loader read the frontmatter.
+    """
+    attrs = load_corpus.source_attributes()
+    for row in _rows("corpus.csv"):
+        attr = attrs.get(row["source_id"])
+        assert attr is not None, f"{row['source_id']} has no source file"
+        assert attr["camp"], f"{row['source_id']} has no camp in its frontmatter"
