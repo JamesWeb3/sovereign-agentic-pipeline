@@ -11,10 +11,9 @@ camp: neutral
 
 **Evidence role:** secondary — 1News reporting an interview on TVNZ's Q+A. Primary only for Energy Minister Simeon Brown's remarks as broadcast; there is no published policy document behind them.
 
-⚠ **Verification status:** obtained via an automated fetch, which returned a summary rather
-than full text. Only one direct quote below is verbatim; the figures are reported but their
-exact wording is **not** captured. Read the article and, better, the Q+A transcript before any
-figure here backs a graph Claim.
+✅ **Verification status:** verified by Karl on 2026-09-03. Every quote below was checked
+word-for-word against the live page, and the URL confirmed valid. Cleared to back graph
+Claims.
 
 ## Summary
 
@@ -33,12 +32,16 @@ generation matching their total projected usage:
 
 Reported figures — wording not captured verbatim, treat as reported rather than quoted:
 
-- Data centres currently account for **0.6%** of New Zealand's power consumption
+- Data centres currently make up about **0.6%** of New Zealand's power consumption
 - Projected to reach approximately **3% by 2030**
 
 Brown is reported as working with Economic Growth Minister Nicola Willis, on the principle
 that data centres should finance new renewable generation without pushing up household power
 bills. No cabinet paper, discussion document, consultation or timeline is named.
+
+Simeon Brown on the necessity of Data Sovereignty in terms of country productivity:
+
+"If we want to have data sovereignty, if we want to have access to AI data centres, which is going to be critical to our productivity, we're going to need these in our country."
 
 ## Claims this supports
 

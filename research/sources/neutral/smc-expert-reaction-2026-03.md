@@ -35,12 +35,11 @@ is the clearest available evidence of what the non-notified process meant in pra
 
 SMC's own framing:
 
-> "A data centre being described by the company behind it as an "AI factory" is set to become
-> NZ's second-biggest electricity user. Resource consent was approved for Datagrid's Data Park
-> in Southland, as well as for an undersea fibre optic cable linking the South Island to
-> Australia. Datagrid says access to the country's biggest hydroelectric stations, low
-> temperatures, and "plentiful water" will mean the data centre has "green power" and low
-> cooling requirements."
+> "A data centre being described by the company behind it as an "AI factory" is set to become NZ's second-biggest electricity user.
+> Resource consent was approved for Datagrid's Data Park
+> in Southland, as well as for an undersea fibre optic cable linking the South Island to Australia.
+> Datagrid says access to the country's biggest hydroelectric stations, low
+> temperatures, and "plentiful water" will mean the data centre has "green power" and low cooling requirements."
 
 **Dr Helen Rutter, Senior Hydrogeologist, Lincoln Agritech** — on not being able to find the
 documents:
