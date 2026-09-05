@@ -1,0 +1,29 @@
+number_id,claim_id,source_id,value,unit,as_of,basis,note
+num-water-consented-annual,claim-makarewa-water-take,es-consent-water-2026,220752000,L/yr,2026-03-13,consented maximum,7 L/s and 604800 L/day for cooling and potable supply
+num-water-consented-daily,claim-makarewa-water-take,es-consent-water-2026,604800,L/day,2026-03-13,consented maximum,The daily expression of the same 7 L/s condition
+num-water-expected-annual,claim-makarewa-water-take,rnz-datagrid-pledges-2026-08,66000000,L/yr,2026-08-18,operator expectation,Datagrid says it expects to use 70% less than consented. Appears in no consent document
+num-dewatering-total,claim-makarewa-dewatering-take,es-consent-water-2026,321408000,L,2026-03-13,consented total for the works,60 L/s over about two months of construction dewatering. Larger than the annual operational take and unreported
+num-power-application,claim-makarewa-power-draw,datagrid-fasttrack-application-2024-05,240,MW,2024-05-02,IT load stated by the applicant,"Application says over 240MW of IT load; IT load excludes cooling and overheads"
+num-power-consent-release,claim-makarewa-power-draw,datagrid-resource-consent-pr-2026-03,280,MW,2026-03-11,figure in the operator's release,Two years later than the application figure and a different quantity may be intended
+num-jobs-construction-concurrent,claim-makarewa-jobs-construction,abley-transport-assessment-2025-08,550,people,2025-08-06,peak concurrent headcount on site,Sized against 400 car parks
+num-jobs-construction-total,claim-makarewa-jobs-construction,datagrid-resource-consent-pr-2026-03,1200,roles,2026-03-11,total roles over the build,Not concurrent and not comparable to the 550
+num-jobs-national-annual,claim-makarewa-jobs-construction,insight-economics-makarewa-2025-07,5751,jobs/yr,2025-07-24,national direct plus indirect,5387 FTE equivalent; onsite and offsite
+num-staff-concurrent,claim-makarewa-jobs-permanent,abley-transport-assessment-2025-08,45,people,2025-08-06,concurrent on site at any one time,5 admin 10 security 5 ops management up to 26 ops
+num-staff-average-daily,claim-makarewa-jobs-permanent,insight-economics-makarewa-2025-07,80,people,2025-07-24,average daily workforce,Alfatech figure. Tracks the 1News number
+num-site-application,claim-makarewa-site-footprint,datagrid-fasttrack-application-2024-05,49,ha,2024-05-02,area proposed by the applicant,43 owned plus about 6 in OIO process
+num-site-coverage,claim-makarewa-site-footprint,rnz-second-largest-drain-2026-03,48,ha,2026-03-17,property area as reported,May undercount: the s104 consents six titles across three addresses
+num-capex,claim-makarewa-capex,1news-community-questions-2026-07,3500000000,NZD,2026-07-23,headline capital cost,Capex is redacted under OIA in the application itself
+num-generators,claim-makarewa-diesel-generators,rnz-second-largest-drain-2026-03,84,units,2026-03-17,consented count,Each with a 10000 L diesel tank and a 15 m exhaust stack
+num-generator-tank,claim-makarewa-diesel-generators,rnz-second-largest-drain-2026-03,10000,L,2026-03-17,per generator,Diesel tank capacity per unit
+num-mercury-stake,claim-makarewa-mercury-stake,1news-community-questions-2026-07,12,percent,2026-07-23,equity stake,Bought for 53m NZD in March 2026
+num-mercury-ppa,claim-makarewa-mercury-stake,1news-community-questions-2026-07,140,MW,2026-07-23,long-term PPA,Signed with Mercury in March 2026
+num-open-date,claim-makarewa-open-date,1news-community-questions-2026-07,2028,year,2026-07-23,expected opening,As reported
+num-renewable-share-application,claim-nz-renewable-share,datagrid-fasttrack-application-2024-05,82,percent,2024-05-02,unstated basis,"Basis and period not established. MBIE Jan-Mar 2024 was 85.7%, so this matches no verified quarterly figure"
+num-dc-share-greens,claim-nz-datacentre-electricity-share,greens-pause-ai-data-centres-2026-07,6,percent,2026-07-26,Datagrid alone as share of total supply,Cannot hold alongside the 3% sector figure. Likely nameplate against average consumption
+num-dc-share-now,claim-nz-datacentre-electricity-share,1news-brown-underwrite-generation-2026-08,0.6,percent,2026-08-09,all data centres today,Energy Minister Simeon Brown
+num-dc-share-2030,claim-nz-datacentre-electricity-share,1news-brown-underwrite-generation-2026-08,3,percent,2026-08-09,all data centres projected 2030,Energy Minister Simeon Brown
+num-nz-net-generation-2025,claim-nz-total-electricity,mbie-electricity-tables-2026,44140.5,GWh,2025-12-31,net generation calendar year,"Sheet 2 - Annual GWh, row 10"
+num-nz-consumption-2025,claim-nz-total-electricity,mbie-electricity-tables-2026,40589.8,GWh,2025-12-31,consumption on the estimated sales basis,"Sheet 2 - Annual GWh, rows 41-54. Actual-sales basis differs"
+num-renewable-share-2021,claim-nz-renewable-share,mbie-electricity-tables-2026,82.15,percent,2021-12-31,MBIE annual series calendar year,Settles the fast-track application 82% to two decimal places. Same figure, sourced rather than inferred
+num-renewable-share-2025,claim-nz-renewable-share,mbie-electricity-tables-2026,88.46,percent,2025-12-31,MBIE annual series calendar year,Most recent full year in the series
+num-makarewa-share-derived,claim-nz-datacentre-electricity-share,mbie-electricity-tables-2026,6.04,percent,2025-12-31,derived: 280 MW at full load against 2025 national consumption,"280 MW = 2453 GWh/yr. The 280 MW input is num-power-consent-release. Supports the Greens 6% and cannot be reconciled with the 3%-by-2030 sector figure"
