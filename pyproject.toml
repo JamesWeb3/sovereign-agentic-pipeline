@@ -21,6 +21,7 @@ dependencies = []
 part-a = [
     "neo4j>=5.0",          # Step 1 — Bolt driver for the knowledge graph
     "pandas>=2.0",         # Steps 2-4 — EMI grid data, energy/scheduling tables
+    "openpyxl>=3.1",       # Step 1 — reading MBIE .xlsx statistics tables
     "requests>=2.31",      # Step 2 — pulling EMI datasets
     "matplotlib>=3.8",     # notebooks — plots
     "jupyter>=1.0",        # notebooks

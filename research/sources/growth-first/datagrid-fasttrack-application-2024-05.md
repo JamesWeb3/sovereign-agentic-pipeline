@@ -9,6 +9,8 @@ type: submission
 camp: growth-first
 ---
 
+**Evidence role:** primary — Datagrid's own application to the fast-track process, filed by the applicant.
+
 The applicant's own words, submitted to the Crown. This is the highest-value class of
 source in this corpus: everything else in the debate is describing this document.
 Submitted by Datagrid New Zealand Limited Partnership (Response ID ANON-URZ4-5FRF-8),
@@ -45,18 +47,6 @@ dedicated Transpower substation.
 > "Datagrid has been a legal owner of the primary land (43ha) at Makarewa since 2021 and
 > is in the OIO process of acquiring additional adjoining land of approximately 6ha"
 > — Section 2, component 4
-
-## Two things worth flagging
-
-**The capex is withheld.** Both cost figures in the application are redacted as
-`s 9(2)(b)(ii)` (commercially sensitive, Official Information Act). So every dollar figure
-in the media coverage comes from somewhere other than this document, and should be traced
-to whoever actually said it. Do not attribute a cost to the application.
-
-**"240MW of IT load" is not the same quantity as the 280MW reported in coverage.** IT load
-is the compute draw, excluding cooling and overheads; a facility's grid draw is higher.
-Before either number goes in the graph as `claim-makarewa-power-draw`, establish which
-quantity each source is measuring. This is exactly the kind of thing the graph is for.
 
 ## Claims this supports
 

@@ -9,6 +9,8 @@ type: official-statement
 camp: official
 ---
 
+**Evidence role:** primary — primary | secondary. Primary = the document itself, in its own voice. Secondary = an account of a document or event. Say which, and why, in one line.
+
 <!--
 This is a FORMAT TEMPLATE, not a real source. It exists so the frontmatter schema and the
 matching corpus.csv row are unambiguous. Copy it, rename it to `<id>-<slug>.md`, fill in

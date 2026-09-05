@@ -9,6 +9,8 @@ type: coverage
 camp: neutral
 ---
 
+**Evidence role:** secondary — 1News reporting. Primary only for the interviews and community statements it captured, which exist in no other record.
+
 By Sam Olley, Reporter. Published Thu, Jul 23 2026. Note the publication date and the
 date in the URL path disagree by one day; the byline date is used here.
 
@@ -57,14 +59,6 @@ Rob Scott, Southland Mayor:
 > world can't actually keep up with. And I think we're getting a consequence of that now.
 > So we're all trying to work within the rules and the regulations that we've got, and
 > sometimes, they need to be challenged."
-
-## The contested claim worth modelling
-
-`claim-makarewa-consultation-adequate` is directly disputed between sources. In
-`rnz-second-largest-drain-2026-03` the same mayor says the community was consulted and
-listened to. Here, a residents' group is holding its own meetings because it feels it
-was not, and the applicant did not attend. Same Claim, two Sources, opposite positions.
-A spreadsheet loses this. The graph is what makes it queryable.
 
 ## Claims this supports
 

@@ -9,6 +9,8 @@ type: coverage
 camp: neutral
 ---
 
+**Evidence role:** secondary — RNZ reporting on the consents and on others' statements. Primary only for the remarks it recorded directly, including the mayor's.
+
 By Alexia Russell, 17 March 2026, 9:55am.
 
 ## Summary
@@ -45,14 +47,6 @@ Rob Scott, Southland mayor:
 
 > "Most of the people who live around them have given their written approval for what's
 > going on."
-
-## Note on the jobs figures
-
-This source says "up to 550 workers" on site during construction and "about 50 staff" to
-run it. `1news-community-questions-2026-07` reports 1200 and 80 for what appear to be the
-same two quantities, four months later. Both are in the graph; neither is deleted. Load
-them as two Numbers evidencing the same Claim and let the contradiction be visible, then
-find out which is right and why it changed.
 
 ## Claims this supports
 
