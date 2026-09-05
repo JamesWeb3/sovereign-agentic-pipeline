@@ -5,6 +5,11 @@ Three registers, loaded in dependency order, all idempotent so re-running is saf
     research/corpus.csv   one row per Source, plus the claim_ids it backs
     research/claims.csv   one row per Claim, and what the claim is about
     research/numbers.csv  one row per Number, tied to its Claim and its Source
+    research/entities.csv one row per Facility/Entity/Policy a Claim can point at
+
+A Source's `camp` and `type` are NOT in corpus.csv. They live in the source file's own
+frontmatter, which `tests/test_research_sources.py` already validates, so the loader reads
+them from there rather than duplicating them into a second register that could disagree.
 
 The point of splitting them is the methodology rule in docs/methodology.md: a figure
 that cannot be traced is a figure we delete. Here that rule is structural rather than
@@ -40,6 +45,7 @@ from pathlib import Path
 
 RESEARCH = Path(__file__).resolve().parents[2] / "research"
 CORPUS_CSV = RESEARCH / "corpus.csv"
+ENTITIES_CSV = RESEARCH / "entities.csv"
 CLAIMS_CSV = RESEARCH / "claims.csv"
 NUMBERS_CSV = RESEARCH / "numbers.csv"
 
@@ -54,7 +60,9 @@ SET s.title      = $title,
     s.publisher  = $publisher,
     s.pub_date   = $pub_date,
     s.url        = $url,
-    s.retrieved_at = $retrieved_at
+    s.retrieved_at = $retrieved_at,
+    s.camp       = $camp,
+    s.type       = $type
 RETURN s.id AS id
 """
 
@@ -67,9 +75,16 @@ RETURN c.id AS id
 
 # The about-node label is interpolated, never the values. ABOUT_LABELS gates it, so a
 # bad register cannot inject a label — an unknown one raises before we reach Cypher.
+UPSERT_ABOUT = """
+MERGE (t:{label} {{id: $about_id}})
+SET t.name   = $name,
+    t.kind   = $kind,
+    t.region = $region
+"""
+
 LINK_CLAIM_ABOUT = """
 MATCH (c:Claim {{id: $claim_id}})
-MERGE (t:{label} {{id: $about_id}})
+MATCH (t:{label} {{id: $about_id}})
 MERGE (c)-[:ABOUT]->(t)
 """
 
@@ -117,6 +132,47 @@ def read_numbers(path: Path = NUMBERS_CSV) -> list[dict[str, str]]:
     return _read(path, "number_id")
 
 
+def read_entities(path: Path = ENTITIES_CSV) -> list[dict[str, str]]:
+    return _read(path, "entity_id")
+
+
+def read_frontmatter(path: Path) -> dict[str, str]:
+    """Parse a source file's leading `---` block. Same shape as the tests' reader."""
+    lines = path.read_text(encoding="utf-8").splitlines()
+    if not lines or lines[0].strip() != "---":
+        return {}
+    fields: dict[str, str] = {}
+    for line in lines[1:]:
+        if line.strip() == "---":
+            break
+        if ":" not in line:
+            continue
+        key, _, value = line.partition(":")
+        fields[key.strip()] = value.split("#")[0].strip().strip('"')
+    return fields
+
+
+def source_attributes() -> dict[str, dict[str, str]]:
+    """Map source_id -> {camp, type} read from each source file's frontmatter.
+
+    Kept out of corpus.csv on purpose: the frontmatter is the single place a source
+    declares its camp, `tests/test_research_sources.py` already checks the folder matches
+    it, and a second copy in the register is a value that can drift.
+    """
+    root = RESEARCH / "sources"
+    out: dict[str, dict[str, str]] = {}
+    for path in sorted(root.rglob("*.md")):
+        # The format template deliberately has no corpus row: a live row would inject an
+        # "Example Publisher" node into the graph.
+        if path.name in ("README.md", "example-0001-template.md"):
+            continue
+        fm = read_frontmatter(path)
+        sid = fm.get("id", "").strip()
+        if sid:
+            out[sid] = {"camp": fm.get("camp", ""), "type": fm.get("type", "")}
+    return out
+
+
 def claim_ids_for(row: dict[str, str]) -> list[str]:
     """Split a corpus row's semicolon-separated claim_ids, dropping blanks."""
     return [c.strip() for c in (row.get("claim_ids") or "").split(";") if c.strip()]
@@ -126,6 +182,7 @@ def check_references(
     corpus: list[dict[str, str]],
     claims: list[dict[str, str]],
     numbers: list[dict[str, str]],
+    entities: list[dict[str, str]] | None = None,
 ) -> None:
     """Fail before touching the database if any reference does not resolve.
 
@@ -134,6 +191,7 @@ def check_references(
     """
     source_ids = {r["source_id"] for r in corpus}
     claim_ids = {r["claim_id"] for r in claims}
+    entity_ids = {r["entity_id"] for r in (entities or [])}
     problems: list[str] = []
 
     for row in corpus:
@@ -149,6 +207,12 @@ def check_references(
             problems.append(
                 f"claims.csv: {row['claim_id']} has about_type '{label}'; "
                 f"expected one of {sorted(ABOUT_LABELS)}"
+            )
+        about_id = (row.get("about_id") or "").strip()
+        if entities is not None and about_id and about_id not in entity_ids:
+            problems.append(
+                f"claims.csv: {row['claim_id']} is about '{about_id}', "
+                "which is not in entities.csv"
             )
 
     for row in numbers:
@@ -183,6 +247,7 @@ def load(
     corpus: list[dict[str, str]],
     claims: list[dict[str, str]],
     numbers: list[dict[str, str]],
+    entities: list[dict[str, str]],
     driver,
 ) -> dict[str, int]:
     """Upsert sources, then claims and what they are about, then numbers.
@@ -190,9 +255,33 @@ def load(
     Order matters: a Number matches on an existing Claim and Source rather than
     creating them, so a typo fails loudly instead of quietly minting an empty node.
     """
-    counts = {"sources": 0, "claims": 0, "numbers": 0, "claim_source_links": 0}
+    counts = {
+        "sources": 0,
+        "claims": 0,
+        "numbers": 0,
+        "entities": 0,
+        "claim_source_links": 0,
+    }
+    attrs = source_attributes()
     with driver.session() as session:
+        for row in entities:
+            label = row["label"].strip()
+            if label not in ABOUT_LABELS:
+                raise ValueError(
+                    f"entities.csv: {row['entity_id']} has label '{label}'; "
+                    f"expected one of {sorted(ABOUT_LABELS)}"
+                )
+            session.run(
+                UPSERT_ABOUT.format(label=label),
+                about_id=row["entity_id"],
+                name=row.get("name", ""),
+                kind=row.get("kind", ""),
+                region=row.get("region", ""),
+            )
+            counts["entities"] += 1
+
         for row in corpus:
+            attr = attrs.get(row["source_id"], {})
             session.run(
                 UPSERT_SOURCE,
                 source_id=row["source_id"],
@@ -201,6 +290,8 @@ def load(
                 pub_date=row.get("pub_date", ""),
                 url=row.get("url", ""),
                 retrieved_at=row.get("retrieved_at", ""),
+                camp=attr.get("camp", ""),
+                type=attr.get("type", ""),
             )
             counts["sources"] += 1
 
@@ -258,16 +349,18 @@ def main() -> None:
     corpus = read_corpus()
     claims = read_claims()
     numbers = read_numbers()
-    check_references(corpus, claims, numbers)
+    entities = read_entities()
+    check_references(corpus, claims, numbers, entities)
 
     driver = GraphDatabase.driver(uri, auth=(user, password))
     try:
-        counts = load(corpus, claims, numbers, driver)
+        counts = load(corpus, claims, numbers, entities, driver)
     finally:
         driver.close()
 
     print(
-        f"Upserted {counts['sources']} source(s), {counts['claims']} claim(s), "
+        f"Upserted {counts['entities']} entity/facility/policy node(s), "
+        f"{counts['sources']} source(s), {counts['claims']} claim(s), "
         f"{counts['numbers']} number(s), {counts['claim_source_links']} claim-source link(s)."
     )
 

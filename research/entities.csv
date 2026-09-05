@@ -1,0 +1,6 @@
+entity_id,label,name,kind,region
+facility-makarewa,Facility,Datagrid Makarewa data centre,data centre,Southland
+entity-mercury,Entity,Mercury NZ Limited,gentailer,New Zealand
+entity-nz-grid,Entity,New Zealand electricity system,electricity system,New Zealand
+entity-nz-government,Entity,New Zealand Government,government,New Zealand
+policy-makarewa-consents,Policy,Makarewa resource consents,resource consent,Southland
