@@ -609,6 +609,8 @@ disagreement about what the project is for, not about what it measures.
 
 #### There is no government data centre policy to cite
 
+> **Correction, 2026-09-15.** This conclusion was right as at 9 August and is now out of date. `greens-national-policy-response-2026-08` shows Prime Minister Christopher Luxon announced a data centre proposal on **14 August 2026**, including a requirement for new "firmed energy". The Greens say it is silent on whether that firming must be renewable, on community engagement in consenting, and on water standards. The announcement itself is not yet in the corpus and should be: a beehive.govt.nz release from 14 August would be the primary source, and would test the Greens' characterisation of it.
+
 Chased on 2026-09-03 and it does not exist as a document. What exists: the Prime Minister on
 27 July 2026 directing Nicola Willis and DPMC to develop principles ("I want to be able to get
 all the interests that are in that space to come back with some sensible, common-sense rules"),
