@@ -19,7 +19,7 @@ num-mercury-stake,claim-makarewa-mercury-stake,1news-community-questions-2026-07
 num-mercury-ppa,claim-makarewa-mercury-stake,1news-community-questions-2026-07,140,MW,2026-07-23,long-term PPA,Signed with Mercury in March 2026
 num-open-date,claim-makarewa-open-date,1news-community-questions-2026-07,2028,year,2026-07-23,expected opening,As reported
 num-renewable-share-application,claim-nz-renewable-share,datagrid-fasttrack-application-2024-05,82,percent,2024-05-02,unstated basis,"Basis and period not established. MBIE Jan-Mar 2024 was 85.7%, so this matches no verified quarterly figure"
-num-dc-share-greens,claim-nz-datacentre-electricity-share,greens-pause-ai-data-centres-2026-07,6,percent,2026-07-26,Datagrid alone as share of total supply,Cannot hold alongside the 3% sector figure. Likely nameplate against average consumption
+num-dc-share-greens,claim-nz-datacentre-electricity-share,greens-pause-ai-data-centres-2026-07,6,percent,2026-07-26,Datagrid alone as share of total supply,Arithmetically sound: 280 MW at full load is 2453 GWh or 6.04% of 2025 consumption (mbie-electricity-tables-2026). It is the 3% sector-wide 2030 figure that cannot sit beside it
 num-dc-share-now,claim-nz-datacentre-electricity-share,1news-brown-underwrite-generation-2026-08,0.6,percent,2026-08-09,all data centres today,Energy Minister Simeon Brown
 num-dc-share-2030,claim-nz-datacentre-electricity-share,1news-brown-underwrite-generation-2026-08,3,percent,2026-08-09,all data centres projected 2030,Energy Minister Simeon Brown
 num-nz-net-generation-2025,claim-nz-total-electricity,mbie-electricity-tables-2026,44140.5,GWh,2025-12-31,net generation calendar year,"Sheet 2 - Annual GWh, row 10"
@@ -28,3 +28,7 @@ num-renewable-share-2021,claim-nz-renewable-share,mbie-electricity-tables-2026,8
 num-renewable-share-2025,claim-nz-renewable-share,mbie-electricity-tables-2026,88.46,percent,2025-12-31,MBIE annual series calendar year,Most recent full year in the series
 num-makarewa-share-derived,claim-nz-datacentre-electricity-share,mbie-electricity-tables-2026,6.04,percent,2025-12-31,derived: 280 MW at full load against 2025 national consumption,"280 MW = 2453 GWh/yr. The 280 MW input is num-power-consent-release. Supports the Greens 6% and cannot be reconciled with the 3%-by-2030 sector figure"
 num-generators-greens,claim-makarewa-diesel-generators,greens-national-policy-response-2026-08,84,units,2026-08-14,consented count,Restated by the Greens on 14 Aug; four days later Datagrid said it expects fewer than 34 (rnz-datagrid-pledges-2026-08)
+num-dc-demand-growth-greens,claim-nz-datacentre-electricity-share,greens-pause-petition-2026,1500,percent,2024-12-31,growth in data centre electricity demand 2017 to 2024,Petition gives no source for the figure. Unverified
+num-petition-signatures,claim-nz-datacentre-regulation,greens-pause-petition-2026,12878,signatures,2026-09-15,live count at retrieval,Target 15000. Changes daily; a snapshot not a total
+num-petition-target,claim-nz-datacentre-regulation,greens-pause-petition-2026,15000,signatures,2026-09-15,stated target,The number the Green Party says it needs
+num-makarewa-households-greens,claim-makarewa-power-draw,greens-pause-petition-2026,300000,households,2026-07-26,household equivalent as stated by the petition,"Petition says ""more than"" 300,000. No household consumption figure given"
