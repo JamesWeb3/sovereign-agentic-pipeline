@@ -745,3 +745,33 @@ MBIE also lists `energyinfo@mbie.govt.nz` for data queries. That is now also the
 **licence terms**: neither workbook states any, and `data/README.md` requires redistribution
 rights to be confirmed before any derived table is committed to a public repo.
 
+### `greens-pause-petition-2026`
+
+#### The primary material for the pause demand
+
+The 26 July press release announces the call; this page is what signatories actually put their
+names to. It adds what the press release does not: three rules any future data centre should
+meet — produce additional renewable energy for its own needs, follow strict water limits, and
+pay the full cost of its infrastructure. Those three map almost exactly onto the government's
+"additionality" concept and onto the water and cost gaps the Greens say the 14 August
+announcement left open, so the petition is the clearest statement of what the climate-first
+side would accept.
+
+#### "As much as all our wind generation" does not survive the check
+
+The petition says Makarewa's 6% of supply is "as much as all our wind generation". MBIE's
+table (`mbie-electricity-tables-2026`, row 15) gives wind generation of 3,218.7 GWh in 2023,
+3,939.8 GWh in 2024 and 3,811.5 GWh in 2025. Makarewa at full load is 2,453 GWh — about 64% of
+2025 wind, not all of it. The 6% figure is sound; the wind comparison overstates it by roughly
+half again. It may have been true against wind generation several years earlier, before new
+capacity came on, which is the charitable reading and still worth checking.
+
+#### Figures still unverified
+
+- **Sector demand up about 1,500% between 2017 and 2024.** No source given on the page. A
+  sixteen-fold rise needs a source before it backs anything.
+- **More than 300,000 households.** No per-household consumption figure given, so the
+  equivalence cannot be tested from the page alone.
+
+Also note the wind figure moved again between publications: 3,206 GWh for 2023 in
+`mbie-energy-in-nz-2024`, 3,218.7 GWh in the current table.
