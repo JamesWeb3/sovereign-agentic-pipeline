@@ -181,6 +181,7 @@ District Council land use consent is a tenth authorisation, but from a different
 
 ## Claims this supports
 
+- `claim-makarewa-consent-duration` — AUTH-20252550-03 granted 11 March 2026, lapse 11 March 2034, expiry 11 March 2061: a 35-year term
 - `claim-makarewa-water-take` — 220,752,000 L/year, 604,800 L/day, 7 L/s consented (AUTH-03)
 - `claim-makarewa-dewatering-take` — 321,408,000 L total, 60 L/s, up to 2 months (AUTH-04) *(new claim id)*
 - `claim-makarewa-wastewater-discharge` — up to 5 m3/day to land (AUTH-01) *(new claim id)*

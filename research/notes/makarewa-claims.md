@@ -84,6 +84,7 @@ Conflicting values — figures where two sources give different numbers for the 
 | Permanent staff | ~50 (RNZ) | 80 (1News) | **Closed, and my earlier "resolved in favour of 80" was wrong.** `abley-transport-assessment-2025-08` gives three figures: the park "will employ between 60 - 100 staff", with "Up to 45 staff on site at any one time" (5 admin, 10 security, 5 ops management, up to 26 ops). RNZ's ~50 tracks the 45 concurrent; 1News's 80 tracks Alfatech's "average daily workforce of 80" via `insight-economics-makarewa-2025-07`. Both are right about different quantities - concurrent on site vs total employed. |
 | Site footprint | 49 ha = 43 owned + ~6 in OIO (application) | "48-ha property" (RNZ) | **Both may undercount.** `sdc-s104-decision-2026-03` consents six titles across *three* addresses — 342 and 370 Flora Road East plus 63 Taylor Road, Lorneville. Every other source describes a two-address site. Component areas given: 9.5ha datahalls, ~4ha GXP substation, 18.66ha planting. Establish whether the 48/49ha figures cover the Taylor Road title at all. |
 | National electricity share | Datagrid alone "about six per cent of our country's total electricity supply" (Greens, 26 Jul 2026) | ALL data centres 0.6% now, ~3% by 2030 (Energy Minister Simeon Brown, 9 Aug 2026) | **The Greens' arithmetic checks out; the conflict is real and is about *when*.** Against `mbie-energy-in-nz-2025` (40,002 GWh consumed in 2024, the most recent annual), 280 MW running flat out is 2,453 GWh = **6.1% of national consumption**. So "about six per cent" is sound for a fully built, fully loaded Makarewa. Brown's 0.6% is data centres *operating now*, when Makarewa is not built. His 3% by 2030 is the number that cannot stand beside the Greens' 6%, unless it excludes Makarewa or assumes it is far from full load. That is the question to put to MBIE or the minister's office. |
+| Water consent duration | 25 years maximum advocated (Te Tangi a Tauira, iwi management plan, 2008, s3.5.14 policy 17) | 35 years granted: 11 Mar 2026 to 11 Mar 2061 (AUTH-20252550-03, `es-consent-water-2026`) | **Open, and not a contradiction of fact.** Both figures are correct; the consent exceeds the iwi policy by 10 years. Iwi management plans must be taken into account under the RMA but do not bind. The same rūnanga gave written approval, so whether the term was raised during consultation is unknown - the Cultural Impact Assessment would say, and it is restricted without Te Ao Mārama's permission. |
 | Renewable share | 82% (application) | 85.7% (MBIE, Jan–Mar 2024) | **Closed. 82% is MBIE's calendar-2021 annual figure, one edition stale at filing.** `mbie-energy-in-nz-2022`: "Electricity generated from renewable sources this year was 82.1 per cent of total generation". At filing on 2 May 2024 the latest annual was Energy in New Zealand 2023 (August 2023), covering 2022 at 87%; the 2024 edition (88.0% for 2023) was not published until September 2024. So the applicant quoted a real MBIE figure that was one edition out of date. Note it *understates* the renewable share — a conservative error, not a flattering one. |
 
 Disputed characterisations — competing accounts of the same events, not competing measurements.
@@ -775,3 +776,52 @@ capacity came on, which is the charitable reading and still worth checking.
 
 Also note the wind figure moved again between publications: 3,206 GWh for 2023 in
 `mbie-energy-in-nz-2024`, 3,218.7 GWh in the current table.
+
+### `te-tangi-a-tauira-2008`
+
+#### The iwi standard for water takes, set against the Makarewa consent
+
+The Ngāi Tahu ki Murihiku iwi management plan is the first climate-first source that is not the
+Green Party. Its section 3.5.14 gives policies specific enough to test against AUTH-20252550-03:
+
+| Policy (s3.5.14) | Makarewa | Result |
+| --- | --- | --- |
+| 17. Durations not exceeding 25 years for water-take consents | 35-year term, 2026 to 2061 | **Exceeds by 10 years** |
+| 11. Avoid excessive drawdown of aquifer levels | Drawdown above the 20% policy limit set aside on three bores on written approvals | **In tension** |
+| 9. Justify the quantity sought, so a test of reasonableness can apply | 220,752,000 L/yr consented; Datagrid expects under 66,000,000 | **In tension** - the applicant's own expectation is 30% of the grant |
+| 16. Meter all takes | AUTH-20252550-03 requires metering of total abstraction | Consistent |
+| 4. Prefer bores to surface water on the Southland Plains | Groundwater bores | Consistent |
+| "Rain is our most reliable water resource on the Southland Plains" | SDC condition OP7 requires potable supply from rainwater | Consistent |
+
+Its framing lands squarely on the 220m / 66m gap: "Sustainable water use is about using what we
+need, not what we have", and, among the issues, "Water users using what they are allocated,
+rather than what they need."
+
+#### The limits of what it can show
+
+- **Written in 2008**, before Te Mana o te Wai was given priority in the 2020 national freshwater
+  policy statement and before the proposed Southland Water and Land Plan. Checked 2026-09-15: still
+  listed as current by Environment Southland and by Te Ao Mārama Inc, with no later revision.
+- **Written for irrigation.** Several policies assume farm takes; applying them to an industrial
+  cooling take is a reasonable reading but an extension.
+- **Not an objection to Makarewa.** The same rūnanga gave written approval. The plan shows a
+  standard the consent departs from, not a position on this project.
+
+#### Iwi material that could not be used
+
+Checked 2026-09-15 and deliberately not quoted:
+
+- **Te Ao Mārama Inc, Cultural Impact Assessment for the Datagrid application** (on SDC's consent
+  page). Its first page: "Information contained within this report cannot be distributed or used
+  without the permission of Ngāi Tahu ki Murihiku. This assessment is to be used for the current
+  consenting process only." Read to that page and no further.
+- **Ngāi Tahu ki Murihiku Freshwater Objectives**, Te Ao Mārama, February 2020 (updated September
+  2020). Restricted to the Southland Regional Forum "without the express permission of Te Ao
+  Marama Incorporated". Read to that notice and no further; local copy deleted.
+- **Draft Murihiku Southland Freshwater Objectives**, June 2020. Environment Southland technical
+  report 2020-06, co-authored with Te Ao Mārama. Usable, but a council publication and so `official`
+  rather than the iwi's own voice.
+
+Both restricted documents are the more current iwi position on wai. Using them needs written
+permission from the Papatipu Rūnanga via Te Ao Mārama Inc, and one request could cover both. For a
+project about data sovereignty, honouring those restrictions is not optional.
