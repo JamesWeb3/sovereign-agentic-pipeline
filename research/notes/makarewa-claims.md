@@ -152,6 +152,13 @@ reduce heat through evaporation of water." AUTH-20252550-03 is granted for "cool
 potable supply", capped at 220,752,000 litres a year. Any claim that Southland's climate
 removes the need for groundwater is contradicted by the consents.
 
+> **Qualified 2026-09-15.** The objectors' own form (`ssrc-s128-review-form-2026-08`) says free-air
+> cooling fans "run >80% of the time", and builds its noise case on that. Read with the SDC and ES
+> descriptions, the likeliest picture is free-air cooling most of the time with adiabatic, water-based
+> assist for the rest. So "false as stated" is too strong about the cooling *method*. What still holds
+> is the water point: a groundwater take of up to 220,752,000 L/yr is consented for cooling, so no claim
+> that the climate removes the need for groundwater survives. The 80% figure is unsourced.
+
 **5. There is a second, larger water take that nobody reports.**
 AUTH-20252550-04: 321,408,000 litres in total for construction dewatering at 60 L/s over about
 two months, against 220,752,000 L/year for operations. Every news story covers the operational
@@ -825,3 +832,35 @@ Checked 2026-09-15 and deliberately not quoted:
 Both restricted documents are the more current iwi position on wai. Using them needs written
 permission from the Papatipu Rūnanga via Te Ao Mārama Inc, and one request could cover both. For a
 project about data sovereignty, honouring those restrictions is not optional.
+
+### `ssrc-s128-review-form-2026-08`
+
+#### The objectors' case in their own words, at last
+
+The council's 5 August report summarised the coalition's request as "concerns primarily relating
+to the acoustic assessment". The coalition's own template submission turns that into eight specific
+criticisms: the wrong primary noise source modelled (chillers rather than free-air fans), no
+low-frequency noise or infrasound assessment, only two transformers modelled with no frequency data,
+no ground factor under ISO 9613-2, atmospheric inversions ignored, a 7-day single-season single-position
+A-weighted baseline, no glazing data for nearby homes, and no independent peer review. Each is
+testable against the Marshall Day assessment on SDC's consent page, which still has not been read.
+
+#### Its case is wider than the council said
+
+The page that publishes the form adds grounds the council report does not mention: "the absence of
+decommissioning security, e-waste tracking provisions, and the procedural concerns around
+non-notification", and the risk of "abandoned industrial sites, contamination liabilities, and
+remediation costs" if a speculative project fails. The council framed the request as acoustic; the
+coalition frames it as a liability and safeguards case with noise as its sharpest evidence.
+
+#### It cuts against one of our own objections
+
+The form states free-air cooling fans "run >80% of the time". That supports Datagrid's free-air
+account more than anything the applicant has published, and it means analysis-layer objection 4 was
+framed too strongly. Qualified in place above.
+
+#### Still to get
+
+The form links to the coalition's full s128 submission as a Facebook post. That is the fuller
+primary document, and it is not retrievable by script. Open it in a browser and, if it holds the
+request as lodged, it should become its own source file.

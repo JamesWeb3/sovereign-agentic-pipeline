@@ -22,6 +22,12 @@ evidence-role line marks as secondary.
   26 July 2026. Names the Makarewa consent and puts its electricity demand at about six per
   cent of national supply.
 
+- `greens-national-policy-response-2026-08` — the Greens' response to the government's 14 August 2026 data centre proposal.
+- `greens-pause-petition-2026` — the petition text behind the pause call, with three proposed rules.
+- `te-tangi-a-tauira-2008` — the Ngāi Tahu ki Murihiku iwi management plan; its water-take policies tested against the Makarewa consent.
+- `ssrc-s128-review-form-2026-08` — the Southland Sustainable Resource Coalition's own template s128 submission, from its website. The first coalition document in the corpus.
+
+
 ## Still being chased
 
 - **The SSRC s128 review request as lodged**, 27 July 2026. The objectors' first formal
