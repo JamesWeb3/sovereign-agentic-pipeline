@@ -25,6 +25,7 @@ evidence-role line marks as secondary.
 - `greens-national-policy-response-2026-08` — the Greens' response to the government's 14 August 2026 data centre proposal.
 - `greens-pause-petition-2026` — the petition text behind the pause call, with three proposed rules.
 - `te-tangi-a-tauira-2008` — the Ngāi Tahu ki Murihiku iwi management plan; its water-take policies tested against the Makarewa consent.
+- `ssrc-s128-request-2026-07` — the coalition's full s128 request, 26 July 2026, signed by Michelle Hayward. The objectors' case in their own words, with 14 proposed conditions.
 - `ssrc-s128-review-form-2026-08` — the Southland Sustainable Resource Coalition's own template s128 submission, from its website. The first coalition document in the corpus.
 
 
