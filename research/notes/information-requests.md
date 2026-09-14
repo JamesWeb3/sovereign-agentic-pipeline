@@ -33,6 +33,8 @@ Page: https://www.southlanddc.govt.nz/council/local-government-official-informat
 SDC's page notes there may be a charge under the government charging guidelines, and that
 costs are discussed before work begins. A targeted request should not attract one.
 
+**SSRC** — **correction, 2026-09-15:** the coalition does have a website, found by Karl after the search on 2026-09-03 missed it. https://www.ssrc.org.nz/ lists sustainableresourcecoalition@gmail.com and 027 303 7000, and describes itself as an Incorporated Society. Its Downloadable Forms page publishes template s128 submissions (now `sources/climate-first/ssrc-s128-review-form-2026-08`) that link to the coalition's full s128 submission as a Facebook post: https://www.facebook.com/permalink.php?story_fbid=pfbid02K3BQssoTWXLCZ4cnWt5j8qZxvaAgUYmYcA2hGFUDct7nZptqmyoQJq7J7AeuJCwul&id=61590982592338 - Facebook refuses automated fetches, so it needs opening in a browser. If it holds the full request, it answers most of request 1. The note below is the original, left for the record.
+
 **SSRC** — no website, email address or postal address is published. Searched 2026-09-03.
 The one direct channel found is a Facebook group:
 
