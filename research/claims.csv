@@ -27,3 +27,4 @@ claim-nz-total-electricity,energy,New Zealand net electricity generation and con
 claim-nz-datacentre-electricity-share,energy,Share of national electricity supply used by data centres,Entity,entity-nz-grid
 claim-nz-datacentre-regulation,policy,Whether New Zealand has a data centre policy or rulebook,Entity,entity-nz-government
 claim-makarewa-consent-duration,consent,How long the Makarewa water consents run before expiry,Policy,policy-makarewa-consents
+claim-nz-datacentre-capacity,energy,Installed capacity and number of existing data centres in New Zealand,Entity,entity-nz-grid
