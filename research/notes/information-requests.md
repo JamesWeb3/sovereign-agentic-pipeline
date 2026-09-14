@@ -8,7 +8,7 @@ sent and the outcome; a refusal is a finding, not a dead end.
 
 | # | Sent | To | Asking for | Status |
 |---|---|---|---|---|
-| 1 | **2026-09-03** | Kelly Blomfield, Southland Sustainable Resource Coalition (Facebook message) | the s128 review request as lodged, plus their acoustic evidence and any published positions | **sent** - no statutory deadline; follow up ~2026-09-10 |
+| 1 | **2026-09-03** | Kelly Blomfield, Southland Sustainable Resource Coalition (Facebook message) | the s128 review request as lodged, plus their acoustic evidence and any published positions | **largely answered from the public record, 2026-09-15** - the full request was a public Facebook post, retrieved by Karl; now `ssrc-s128-request-2026-07`. Still missing: its enclosure, the BPO Checklist. No reply recorded from Kelly |
 | 2 | **2026-09-03** | Southland District Council (LGOIMA) | the SSRC request as received, Attachment A, any acoustic review, the public-excluded material | **sent** - statutory reply due ~2026-10-01 (20 working days) |
 
 ## Why these two

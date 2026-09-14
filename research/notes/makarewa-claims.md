@@ -85,6 +85,8 @@ Conflicting values — figures where two sources give different numbers for the 
 | Site footprint | 49 ha = 43 owned + ~6 in OIO (application) | "48-ha property" (RNZ) | **Both may undercount.** `sdc-s104-decision-2026-03` consents six titles across *three* addresses — 342 and 370 Flora Road East plus 63 Taylor Road, Lorneville. Every other source describes a two-address site. Component areas given: 9.5ha datahalls, ~4ha GXP substation, 18.66ha planting. Establish whether the 48/49ha figures cover the Taylor Road title at all. |
 | National electricity share | Datagrid alone "about six per cent of our country's total electricity supply" (Greens, 26 Jul 2026) | ALL data centres 0.6% now, ~3% by 2030 (Energy Minister Simeon Brown, 9 Aug 2026) | **The Greens' arithmetic checks out; the conflict is real and is about *when*.** Against `mbie-energy-in-nz-2025` (40,002 GWh consumed in 2024, the most recent annual), 280 MW running flat out is 2,453 GWh = **6.1% of national consumption**. So "about six per cent" is sound for a fully built, fully loaded Makarewa. Brown's 0.6% is data centres *operating now*, when Makarewa is not built. His 3% by 2030 is the number that cannot stand beside the Greens' 6%, unless it excludes Makarewa or assumes it is far from full load. That is the question to put to MBIE or the minister's office. |
 | Water consent duration | 25 years maximum advocated (Te Tangi a Tauira, iwi management plan, 2008, s3.5.14 policy 17) | 35 years granted: 11 Mar 2026 to 11 Mar 2061 (AUTH-20252550-03, `es-consent-water-2026`) | **Open, and not a contradiction of fact.** Both figures are correct; the consent exceeds the iwi policy by 10 years. Iwi management plans must be taken into account under the RMA but do not bind. The same rūnanga gave written approval, so whether the term was raised during consultation is unknown - the Cultural Impact Assessment would say, and it is restricted without Te Ao Mārama's permission. |
+| Night-time noise | The s104 lists among the consents sought "Operation of datacentre which will breach a nighttime noise limit" (`sdc-s104-decision-2026-03`) | MDA predicts no more than 35 dB LAeq at night at the notional boundary, 5 dB under the 40 dB limit, as cited by the objectors (`ssrc-s128-request-2026-07`) | **Open.** If the prediction complies at the notional boundary, the breach consented must be of a different limit - perhaps the 45 dB GRUZ property boundary, LAmax, or a specific receiver. Resolve from the Marshall Day report itself, which is on SDC's consent page and still unread. |
+| SDC decision date | 5 March 2026: s104 signature block, and the council's own post-meeting correction (`sdc-s104-decision-2026-03`, `sdc-review-request-2026-08`) | 11 March 2026: the coalition's s128 request, twice (`ssrc-s128-request-2026-07`) | **Resolved in favour of 5 March.** 11 March is the Environment Southland grant date. The council's own report made the same slip before correcting it; the coalition's request, written a week before that meeting, repeats it. It matters because GEN4's six-month review window runs from the decision date. |
 | Renewable share | 82% (application) | 85.7% (MBIE, Jan–Mar 2024) | **Closed. 82% is MBIE's calendar-2021 annual figure, one edition stale at filing.** `mbie-energy-in-nz-2022`: "Electricity generated from renewable sources this year was 82.1 per cent of total generation". At filing on 2 May 2024 the latest annual was Energy in New Zealand 2023 (August 2023), covering 2022 at 87%; the 2024 edition (88.0% for 2023) was not published until September 2024. So the applicant quoted a real MBIE figure that was one edition out of date. Note it *understates* the renewable share — a conservative error, not a flattering one. |
 
 Disputed characterisations — competing accounts of the same events, not competing measurements.
@@ -163,6 +165,13 @@ removes the need for groundwater is contradicted by the consents.
 AUTH-20252550-04: 321,408,000 litres in total for construction dewatering at 60 L/s over about
 two months, against 220,752,000 L/year for operations. Every news story covers the operational
 figure and none covers this one.
+
+> **Updated 2026-09-15.** The objectors' full case is now in the corpus as
+> `ssrc-s128-request-2026-07`, and it is more precise than "the assessment was inadequate": the
+> assessment modelled 147 chillers as the continuous source when, on the applicant's own account,
+> free-air fans run more than 80% of the time and were not modelled. That is a specific, testable
+> claim against the Marshall Day report. Note also that the coalition "do not seek to undo the
+> original decision" - it asks for 14 conditions, not revocation.
 
 **6. The consent authorises a nighttime noise breach.**
 `sdc-s104-decision-2026-03` lists among the consents sought "Operation of datacentre which will
@@ -864,3 +873,50 @@ framed too strongly. Qualified in place above.
 The form links to the coalition's full s128 submission as a Facebook post. That is the fuller
 primary document, and it is not retrievable by script. Open it in a browser and, if it holds the
 request as lodged, it should become its own source file.
+
+### `ssrc-s128-request-2026-07`
+
+#### The objectors' full case, in their own words
+
+This is the document every earlier reference to "the SSRC request" pointed at: 13 pages, dated
+26 July 2026, signed by Michelle Hayward on behalf of the Southland Sustainable Resources Coalition
+(Incorporated). It was a public Facebook post; Karl retrieved it on 2026-09-15.
+
+#### Three things it changes
+
+**The coalition is not trying to stop the project.** "We acknowledge the consent was granted lawfully
+under the procedures followed at the time and do not seek to undo the original decision." It asks for
+14 conditions - seven before construction, one before operation, four during operation, two for review.
+Any account of the opposition as anti-data-centre is contradicted by its own filing.
+
+**Its central claim rests on the applicant's cooling design.** The request says the applicant
+"has indicated" free-air cooling for more than 80% of runtime with chillers as backup under 20%, yet
+Marshall Day modelled the 147 chillers as the continuous source. If that is right, the objection is
+not that the data centre is loud but that the wrong machine was modelled. It is the most testable
+claim in the whole noise dispute, and the Marshall Day report would settle it.
+
+**It reframes the written approvals.** Neighbours' written approvals were given "based solely on
+the MDA Report's A-weighted predictions". If the prediction modelled the wrong source, the approvals
+that allowed non-notification rested on it. That links the noise objection to the consultation
+objection, which until now were separate rows.
+
+#### Two discrepancies it surfaces, added to the contradiction table
+
+- **The consented noise breach against a compliant prediction.** The s104 consents a datacentre that
+  "will breach a nighttime noise limit", while the prediction cited here is 5 dB under the night
+  limit at the notional boundary. Both cannot describe the same limit.
+- **The decision date.** The request says 11 March twice; the council decided on 5 March. The
+  council's own report made the same slip before correcting it after its 5 August meeting.
+
+#### Figures still unverified
+
+- **"More than 12 times larger than any existing data centre"** and **21 facilities totalling about
+  161 MW** nationally - attributed to Baxtel and DatacenterDynamics, not independently checked.
+- **About 840,000 L of diesel stored on site** - partly obscured on the published image.
+- **>80% / <20% runtime split** - attributed to the applicant but without a document reference.
+
+#### What is still missing
+
+The enclosure, "Best Practicable Option Checklist for Eliminating or Substantially Reducing Low
+Frequency Noise and Infrasound", is not among the published pages. The LGOIMA request's item 1
+covers it.

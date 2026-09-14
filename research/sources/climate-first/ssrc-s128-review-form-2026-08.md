@@ -40,7 +40,7 @@ the review was due ten days earlier. That outcome is not yet in the corpus.
 **The coalition's full submission is linked but not retrieved.** The form points readers to "The
 Southland Sustainable Resource Coalition's Section 128 submission" at a Facebook post
 (`https://www.facebook.com/permalink.php?story_fbid=pfbid02K3BQssoTWXLCZ4cnWt5j8qZxvaAgUYmYcA2hGFUDct7nZptqmyoQJq7J7AeuJCwul&id=61590982592338`).
-Facebook refuses automated requests; it needs opening in a browser. That post is the document
+Karl retrieved it on 2026-09-15; it is now `ssrc-s128-request-2026-07`. (Originally: Facebook refuses automated requests; it needs opening in a browser.) That post is the document
 `notes/information-requests.md` has been chasing.
 
 **Addressees:** the form is addressed to Cameron McIntosh and Elizabeth Hovell of Southland
