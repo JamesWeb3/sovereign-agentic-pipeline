@@ -272,4 +272,7 @@ On written approvals, section 6.7:
 - `claim-makarewa-diesel-generators` — 84 emergency generators; about 840,000 L of diesel stored
 - `claim-makarewa-power-draw` — 280 MW across three modules, against about 161 MW of existing national data centre capacity
 - `claim-makarewa-site-footprint` — 49 ha at 342 and 370 Flora Road East and 63 Taylor Road
+- `claim-makarewa-capex` — NZ$3.5 billion
+- `claim-makarewa-mercury-stake` — 15-year, 140 MW Power Purchase Option Agreement with Mercury
+- `claim-nz-datacentre-capacity` — 21 existing facilities totalling about 161 MW, attributed to Baxtel/DatacenterDynamics
 - `claim-makarewa-consent-granted` — stated as 11 March 2026; see the note in `../../notes/makarewa-claims.md` on the 5 March decision date
