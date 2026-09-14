@@ -32,3 +32,5 @@ num-dc-demand-growth-greens,claim-nz-datacentre-electricity-share,greens-pause-p
 num-petition-signatures,claim-nz-datacentre-regulation,greens-pause-petition-2026,12878,signatures,2026-09-15,live count at retrieval,Target 15000. Changes daily; a snapshot not a total
 num-petition-target,claim-nz-datacentre-regulation,greens-pause-petition-2026,15000,signatures,2026-09-15,stated target,The number the Green Party says it needs
 num-makarewa-households-greens,claim-makarewa-power-draw,greens-pause-petition-2026,300000,households,2026-07-26,household equivalent as stated by the petition,"Petition says ""more than"" 300,000. No household consumption figure given"
+num-consent-term-water,claim-makarewa-consent-duration,es-consent-water-2026,35,years,2026-03-11,derived: granted 2026-03-11 to expiry 2061-03-11,AUTH-20252550-03 operational groundwater take. Lapse date 2034-03-11
+num-iwi-max-term-water,claim-makarewa-consent-duration,te-tangi-a-tauira-2008,25,years,2008-02-14,maximum duration advocated by iwi policy,Te Tangi a Tauira s3.5.14 policy 17. Advocacy position written for water takes generally not Makarewa
